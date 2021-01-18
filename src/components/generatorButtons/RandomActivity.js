@@ -1,9 +1,13 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import {
+    SET_RANDOM_ACTIVITY_ALL
+} from '../../actionTypes'
 
 function RandomActivity(props) {
 
     const handleClick = () => {
-        console.log("inside randomActivity click")
+        props.setRandomActivityFromAll()
     }
 
     return (
@@ -16,4 +20,8 @@ function RandomActivity(props) {
     )
 }
 
-export default RandomActivity
+const mapDispatchToProps = dispatch => ({
+    setRandomActivityFromAll: () => dispatch({ type: SET_RANDOM_ACTIVITY_ALL })
+})
+
+export default connect(null, mapDispatchToProps)(RandomActivity)
