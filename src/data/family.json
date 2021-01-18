@@ -13,14 +13,14 @@
     },
     {
         "id": 2,
-        "name": "",
-        "description": "",
-        "url": "",
-        "image": "",
-        "alt": "",
+        "name": "Painted Rocks",
+        "description": "You've got rocks, you've got paint, why not put them together?",
+        "url": "https://www.parentmap.com/article/painted-rocks-treasure-hunt-kid-craze",
+        "image": "https://www.courant.com/resizer/ul4qJhj9aqzRkD0qf2cSE0q8Hv8=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/FT6YSMJYMBHP5EITCVQV23OGJI.jpg",
+        "alt": "Various colorfully painted rocks",
         "categories": [
-            "",
-            ""
+            "crafts",
+            "family"
         ]
     }
 ]
