@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Title from './components/layout/title.js'
 
 function App() {
   return (
     <div className="App">
-      <h1>The Boredinator</h1>
+      <Title />
     </div>
   );
 }
