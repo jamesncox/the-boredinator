@@ -1,6 +1,10 @@
 [
     {
         "id": 1,
-        "name": ""
+        "name": "",
+        "description": "",
+        "url": "",
+        "image": "",
+        "alt": ""
     }
 ]
