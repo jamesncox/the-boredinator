@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 
 .title {
   font-family: 'Bebas Neue', cursive;
   font-size: 3rem;
+}
+
+.subtitle {
+  font-family: 'Hachi Maru Pop', cursive;
+  margin-top: -2rem;
 }
 
 .App {

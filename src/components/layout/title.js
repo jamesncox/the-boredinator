@@ -6,8 +6,8 @@ export default function Title() {
             <h1 className="title">
                 The Boredinator
             </h1>
-            <p>
-                Lets get off those screens and have some fun!
+            <p className="subtitle">
+                Let's get off those screens and have some fun!
             </p>
         </>
     )
