@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Adopt a Pet!",
+        "description": "Really bored? And often? Help rescue a pet in need of a good home! You won't be bored, we promise!",
+        "url": "https://www.adoptapet.com/",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFCyJt4CfbLaIvAJK1lX91LKS2tra9IpUjRQ&usqp=CAU",
+        "alt": "Young puppy and kitten sitting in a field, looking incredibly adorable",
+        "categories": [
+            "family",
+            "projects",
+            "solo",
+            "couples"
+        ]
+    }
+]
