@@ -1,9 +1,13 @@
 import React from 'react'
-import RandomActivity from '../generatorButtons/RandomActivity'
+import RandomActivityButton from '../generatorButtons/RandomActivity'
+import DisplayActivity from './DisplayActivity'
 
 export default function Home() {
 
     return (
-        <RandomActivity />
+        <>
+            <RandomActivityButton />
+            <DisplayActivity />
+        </>
     )
 }
