@@ -22,5 +22,16 @@
             "crafts",
             "family"
         ]
+    },
+    {
+        "id": 3,
+        "name": "GIF FIT",
+        "description": "Shameless plug alert! Try my circuit-style fitness app to get a challenging, fun and convenient workout in!",
+        "url": "https://gif-fit.netlify.app/",
+        "image": "https://media3.giphy.com/media/l41YgS3UPP5Qjwr8Q/giphy.gif?cid=ecf05e47yj5tpl3e7w1xbte97gdyr31g8c2noedyyv8gi4bg&rid=giphy.gif",
+        "alt": "Gif of man doing burpees",
+        "categories": [
+            "fitness"
+        ]
     }
 ]
