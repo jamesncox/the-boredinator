@@ -33,5 +33,19 @@
         "categories": [
             "fitness"
         ]
+    },
+    {
+        "id": 4,
+        "name": "Take a Hike!",
+        "description": "Use AllTrails to find a great hike near you!",
+        "url": "https://www.alltrails.com/",
+        "image": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2019-8/couple-hiking-mountain-climbing-1296x728-header.jpg?w=1155&h=1528",
+        "alt": "A couple hiking over a beautiful mountain ridge",
+        "categories": [
+            "outside",
+            "fitness",
+            "couples",
+            "family"
+        ]
     }
 ]
