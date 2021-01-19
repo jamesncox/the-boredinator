@@ -8,6 +8,7 @@
   font-family: 'Exo 2', sans-serif;
 }
 
+/* headers */
 .title {
   font-family: 'Bebas Neue', cursive;
   font-size: 3rem;
@@ -18,6 +19,11 @@
   font-family: 'Hachi Maru Pop', cursive;
   font-size: .75rem;
   margin-top: -2rem;
+}
+
+.activity-title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.25rem;
 }
 
 /* category button grid */

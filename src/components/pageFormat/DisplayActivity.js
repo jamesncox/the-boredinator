@@ -8,7 +8,7 @@ function DisplayActivity(props) {
     } else {
         return (
             <>
-                <h4>{props.randomActivity[0].name}</h4>
+                <p className="activity-title">{props.randomActivity[0].name}</p>
                 <div className="card-wrapper">
                     <div className="card">
                         <img
