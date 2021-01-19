@@ -18,6 +18,7 @@ function DisplayButtonGrid(props) {
     } else {
         return (
             <>
+                <p className="category-instructions">Select a category</p>
                 <div className="grid-wrapper">
                     <div className="category-grid">
                         <CouplesButton />
@@ -31,6 +32,7 @@ function DisplayButtonGrid(props) {
                         <SoloButton />
                     </div>
                 </div>
+                <p className="category-instructions">Or</p>
                 <RandomActivityButton />
             </>
         )

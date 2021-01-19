@@ -5,7 +5,7 @@
 
     .subtitle {
       font-size: 1rem;
-      margin-top: -2.5rem;
+      margin-top: -3rem;
     }
 
     .card {
@@ -14,5 +14,9 @@
 
     .category-grid {
       width: 25%;
+    }
+
+    .category-instructions {
+      font-size: 1.25rem;
     }
 }
