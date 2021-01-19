@@ -24,4 +24,4 @@ const mapDispatchToProps = dispatch => ({
     setRandomCouples: () => dispatch({ type: SET_RANDOM_COUPLES })
 })
 
-export default connect(Couples)
+export default connect(null, mapDispatchToProps)(Couples)
