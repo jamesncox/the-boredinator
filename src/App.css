@@ -23,3 +23,8 @@
   color: white;
   padding: .25rem;
 }
+
+/* image */
+.activity-image {
+  width: 75%;
+}
