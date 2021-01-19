@@ -54,7 +54,7 @@
 .couples-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: #0074D9;
+  background-color: #df007a;
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -64,7 +64,8 @@
 .crafts-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: #B10DC9;
+  /* background-color: #B10DC9; */
+  background-image: linear-gradient( 135deg, #FF6FD8 10%, #3813C2 100%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -84,7 +85,8 @@
 .fitness-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: #FF4136;
+  /* background-color: #FF4136; */
+  background-image: linear-gradient( 135deg, #97ABFF 10%, #123597 100%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -94,7 +96,8 @@
 .food-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: #2ECC40;
+  /* background-color: #2ECC40; */
+  background-image: linear-gradient( 135deg, #70F570 10%, #49C628 100%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -104,7 +107,8 @@
 .inside-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: rgb(2, 46, 168);
+  /* background-color: #f57c14; */
+  background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -114,7 +118,7 @@
 .outside-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: #39CCCC;
+  background-color: #FF4136;
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -124,7 +128,8 @@
 .projects-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: #85144b;
+  /* background-color: #85144b; */
+  background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -134,7 +139,7 @@
 .solo-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: #3D9970;
+  background-color: #ac0000;
   color: white;
   flex: 0 0 32%;
   height: 50px;
