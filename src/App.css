@@ -23,7 +23,7 @@
 
 .activity-title {
   font-family: 'Bebas Neue', cursive;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 /* category button grid */
@@ -125,6 +125,16 @@
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   background-color: #85144b;
+  color: white;
+  flex: 0 0 32%;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.solo-button {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  background-color: #3D9970;
   color: white;
   flex: 0 0 32%;
   height: 50px;
