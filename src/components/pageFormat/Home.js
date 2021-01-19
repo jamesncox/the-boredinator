@@ -5,6 +5,7 @@ import CraftsButton from '../generatorButtons/Crafts'
 import FamilyButton from '../generatorButtons/Family'
 import FitnessButton from '../generatorButtons/Fitness'
 import FoodButton from '../generatorButtons/Food'
+import InsideButton from '../generatorButtons/Inside'
 import DisplayActivity from './DisplayActivity'
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
                     <FamilyButton />
                     <FitnessButton />
                     <FoodButton />
+                    <InsideButton />
                 </div>
             </div>
             <RandomActivityButton />
