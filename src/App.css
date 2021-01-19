@@ -20,12 +20,29 @@
   margin-top: -2rem;
 }
 
+/* category button grid */
+.category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 50%;
+}
+
 /* buttons */
 .random-activity {
   font-family: 'Exo 2', sans-serif;
   background-color: rgb(0, 201, 0);
   color: white;
   padding: .25rem;
+}
+
+.couples-button {
+  font-family: 'Exo 2', sans-serif;
+  background-color: rgb(0, 127, 201);
+  color: white;
+  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+  height: 50px;
+  margin-bottom: 5px;
 }
 
 .take-me-there {
