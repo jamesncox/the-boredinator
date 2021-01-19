@@ -11,6 +11,13 @@ function DisplayActivity(props) {
                 <h4>{props.randomActivity[0].name}</h4>
                 <img src={props.randomActivity[0].url} alt={props.randomActivity[0].alt} />
                 <p>{props.randomActivity[0].description}</p>
+                <form
+                    action={props.randomActivity[0].url}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                >
+                    <input type="submit" value="Take me there!" />
+                </form>
             </>
         )
     }
