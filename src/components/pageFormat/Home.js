@@ -7,6 +7,7 @@ import FitnessButton from '../generatorButtons/Fitness'
 import FoodButton from '../generatorButtons/Food'
 import InsideButton from '../generatorButtons/Inside'
 import OutsideButton from '../generatorButtons/Outside'
+import ProjectsButton from '../generatorButtons/Projects'
 import DisplayActivity from './DisplayActivity'
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
                     <FoodButton />
                     <InsideButton />
                     <OutsideButton />
+                    <ProjectsButton />
                 </div>
             </div>
             <RandomActivityButton />

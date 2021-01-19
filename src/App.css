@@ -121,6 +121,16 @@
   margin-bottom: 5px;
 }
 
+.projects-button {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  background-color: #85144b;
+  color: white;
+  flex: 0 0 32%;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
 .take-me-there {
   font-family: 'Exo 2', sans-serif;
   background-color: rgb(25, 85, 134);
