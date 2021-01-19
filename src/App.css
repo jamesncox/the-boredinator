@@ -40,7 +40,7 @@
 /* buttons */
 .random-activity {
   font-family: 'Exo 2', sans-serif;
-  background-color: rgb(0, 201, 0);
+  background-color: rgb(25, 85, 134);
   color: white;
   padding: .25rem;
 }
@@ -68,7 +68,7 @@
 .family-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: rgb(201, 74, 0);
+  background-color: #f57c14;
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -85,9 +85,19 @@
   margin-bottom: 5px;
 }
 
+.food-button {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  background-color: rgb(0, 201, 0);
+  color: white;
+  flex: 0 0 32%;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
 .take-me-there {
   font-family: 'Exo 2', sans-serif;
-  background-color: #f57c14; /* nickelodeon orange */
+  background-color: rgb(25, 85, 134);
   color: white;
   padding: .25rem;
 }
