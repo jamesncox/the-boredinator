@@ -11,4 +11,8 @@
     .card {
       width: 35%;
     }
+
+    .category-grid {
+      width: 25%;
+    }
 }
