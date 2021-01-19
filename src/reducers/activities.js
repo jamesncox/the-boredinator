@@ -1,5 +1,6 @@
 import {
-    SET_RANDOM_ACTIVITY_ALL
+    SET_RANDOM_ACTIVITY_ALL,
+    SET_RANDOM_COUPLES
 } from '../actionTypes'
 
 import activitiesData from '../data/activities.json'
@@ -20,6 +21,9 @@ export default (state = {
 
             const activity = shuffleActivitiesToGetOne(activitiesData)
             return { ...state, randomActivity: activity }
+
+        case SET_RANDOM_COUPLES:
+
 
         default:
             return state
