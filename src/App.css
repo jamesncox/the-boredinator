@@ -24,6 +24,12 @@
   padding: .25rem;
 }
 
+.take-me-there {
+  background-color: #f57c14; /* nickelodeon orange */
+  color: white;
+  padding: .25rem;
+}
+
 /* image */
 .activity-image {
   width: 75%;

@@ -20,7 +20,7 @@ function DisplayActivity(props) {
                     target="_blank"
                     rel="noreferrer noopener"
                 >
-                    <input type="submit" value="Take me there!" className="random-activity" />
+                    <input type="submit" value="Take me there!" className="take-me-there" />
                 </form>
             </>
         )
