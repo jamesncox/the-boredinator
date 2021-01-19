@@ -9,19 +9,25 @@ function DisplayActivity(props) {
         return (
             <>
                 <h4>{props.randomActivity[0].name}</h4>
-                <img
-                    src={props.randomActivity[0].image}
-                    alt={props.randomActivity[0].alt}
-                    className="activity-image"
-                />
-                <p>{props.randomActivity[0].description}</p>
-                <form
-                    action={props.randomActivity[0].url}
-                    target="_blank"
-                    rel="noreferrer noopener"
-                >
-                    <input type="submit" value="Take me there!" className="take-me-there" />
-                </form>
+                <div className="card-wrapper">
+                    <div className="card">
+                        <img
+                            src={props.randomActivity[0].image}
+                            alt={props.randomActivity[0].alt}
+                            className="activity-image"
+                        />
+                        <div className="container">
+                            <p>{props.randomActivity[0].description}</p>
+                            <form
+                                action={props.randomActivity[0].url}
+                                target="_blank"
+                                rel="noreferrer noopener"
+                            >
+                                <input type="submit" value="Take me there!" className="take-me-there" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </>
         )
     }

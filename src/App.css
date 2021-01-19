@@ -30,7 +30,25 @@
   padding: .25rem;
 }
 
+/* card display */
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 80%;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 15px;
+}
+
 /* image */
 .activity-image {
-  width: 75%;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
 }
