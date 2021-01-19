@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
 
+button {
+  cursor: pointer;
+}
 
 .App {
   text-align: center;
@@ -151,6 +154,7 @@
   background-color: rgb(25, 85, 134);
   color: white;
   padding: .25rem;
+  cursor: pointer;
 }
 
 /* card display */
