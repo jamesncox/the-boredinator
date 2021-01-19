@@ -59,7 +59,7 @@ button {
   font-weight: bold;
   /* background-color: #df007a; */
   background-color: #1d68fb;
-  background-image: linear-gradient(345deg, #1d68fb 0%, #B721FF 50%);
+  background-image: linear-gradient(345deg, #1d68fb 0%, #8f1ac5 100%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -72,7 +72,7 @@ button {
   /* background-color: #B10DC9; */
   /* background-image: linear-gradient( 135deg, #FF6FD8 10%, #3813C2 100%); */
   background-color: #1d68fb;
-  background-image: linear-gradient(0deg, #1d68fb 0%, #B721FF 100%);
+  background-image: linear-gradient(0deg, #1d68fb 0%, #8f1ac5 110%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -84,7 +84,7 @@ button {
   font-weight: bold;
   /* background-color: #B721FF; */
   background-color: #1d68fb;
-  background-image: linear-gradient(15deg, #1d68fb 0%, #B721FF 50%);
+  background-image: linear-gradient(15deg, #1d68fb 0%, #8f1ac5 100%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -97,7 +97,7 @@ button {
   /* background-color: #FF4136; */
   /* background-image: linear-gradient( 135deg, #97ABFF 10%, #123597 100%); */
   background-color: #1d68fb;
-  background-image: linear-gradient(270deg, #1d68fb 0%, #B721FF 100%);
+  background-image: linear-gradient(270deg, #1d68fb 0%, #8f1ac5 120%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -122,7 +122,7 @@ button {
   /* background-color: #f57c14; */
   /* background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%); */
   background-color: #1d68fb;
-  background-image: linear-gradient(90deg, #1d68fb 0%, #B721FF 100%);
+  background-image: linear-gradient(90deg, #1d68fb 0%, #8f1ac5 120%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -134,7 +134,7 @@ button {
   font-weight: bold;
   /* background-color: #FF4136; */
   background-color: #1d68fb;
-  background-image: linear-gradient(195deg, #1d68fb 0%, #B721FF 50%);
+  background-image: linear-gradient(195deg, #1d68fb 0%, #8f1ac5 100%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -147,7 +147,7 @@ button {
   /* background-color: #85144b; */
   /* background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%); */
   background-color: #1d68fb;
-  background-image: linear-gradient(180deg, #1d68fb 0%, #B721FF 100%);
+  background-image: linear-gradient(180deg, #1d68fb 0%, #8f1ac5 110%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -159,7 +159,7 @@ button {
   font-weight: bold;
   /* background-color: #ac0000; */
   background-color: #1d68fb;
-  background-image: linear-gradient(165deg, #1d68fb 0%, #B721FF 50%);
+  background-image: linear-gradient(165deg, #1d68fb 0%, #8f1ac5 100%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
