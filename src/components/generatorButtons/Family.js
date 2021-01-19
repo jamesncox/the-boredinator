@@ -1,12 +1,27 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import {
+    SET_RANDOM_FAMILY
+} from '../../actionTypes'
 
 function Family(props) {
 
+    const handleClick = () => {
+        props.setRandomFamily()
+    }
+
     return (
-        <button className="family-button">
+        <button
+            className="family-button"
+            onClick={e => handleClick(e)}
+        >
             Family
         </button>
     )
 }
 
-export default Family
+const mapDispatchToProps = dispatch => ({
+    setRandomFamily: () => dispatch({ type: SET_RANDOM_FAMILY })
+})
+
+export default connect(null, mapDispatchToProps)(Family)
