@@ -57,7 +57,9 @@ button {
 .couples-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: #df007a;
+  /* background-color: #df007a; */
+  background-color: #1d68fb;
+  background-image: linear-gradient(345deg, #1d68fb 0%, #B721FF 50%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -68,7 +70,9 @@ button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   /* background-color: #B10DC9; */
-  background-image: linear-gradient( 135deg, #FF6FD8 10%, #3813C2 100%);
+  /* background-image: linear-gradient( 135deg, #FF6FD8 10%, #3813C2 100%); */
+  background-color: #1d68fb;
+  background-image: linear-gradient(0deg, #1d68fb 0%, #B721FF 100%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -78,7 +82,9 @@ button {
 .family-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: #f57c14;
+  /* background-color: #B721FF; */
+  background-color: #1d68fb;
+  background-image: linear-gradient(15deg, #1d68fb 0%, #B721FF 50%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -89,7 +95,9 @@ button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   /* background-color: #FF4136; */
-  background-image: linear-gradient( 135deg, #97ABFF 10%, #123597 100%);
+  /* background-image: linear-gradient( 135deg, #97ABFF 10%, #123597 100%); */
+  background-color: #1d68fb;
+  background-image: linear-gradient(270deg, #1d68fb 0%, #B721FF 100%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -100,7 +108,8 @@ button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   /* background-color: #2ECC40; */
-  background-image: linear-gradient( 135deg, #70F570 10%, #49C628 100%);
+  /* background-image: linear-gradient( 135deg, #70F570 10%, #49C628 100%); */
+  background-color: #1D68FB;
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -111,7 +120,9 @@ button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   /* background-color: #f57c14; */
-  background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
+  /* background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%); */
+  background-color: #1d68fb;
+  background-image: linear-gradient(90deg, #1d68fb 0%, #B721FF 100%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -121,7 +132,9 @@ button {
 .outside-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: #FF4136;
+  /* background-color: #FF4136; */
+  background-color: #1d68fb;
+  background-image: linear-gradient(195deg, #1d68fb 0%, #B721FF 50%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -132,7 +145,9 @@ button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   /* background-color: #85144b; */
-  background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+  /* background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%); */
+  background-color: #1d68fb;
+  background-image: linear-gradient(180deg, #1d68fb 0%, #B721FF 100%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
@@ -142,7 +157,9 @@ button {
 .solo-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: #ac0000;
+  /* background-color: #ac0000; */
+  background-color: #1d68fb;
+  background-image: linear-gradient(165deg, #1d68fb 0%, #B721FF 50%);
   color: white;
   flex: 0 0 32%;
   height: 50px;
