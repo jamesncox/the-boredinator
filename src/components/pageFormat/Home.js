@@ -1,34 +1,12 @@
 import React from 'react'
-import RandomActivityButton from '../generatorButtons/RandomActivity'
-import CouplesButton from '../generatorButtons/Couples'
-import CraftsButton from '../generatorButtons/Crafts'
-import FamilyButton from '../generatorButtons/Family'
-import FitnessButton from '../generatorButtons/Fitness'
-import FoodButton from '../generatorButtons/Food'
-import InsideButton from '../generatorButtons/Inside'
-import OutsideButton from '../generatorButtons/Outside'
-import ProjectsButton from '../generatorButtons/Projects'
-import SoloButton from '../generatorButtons/Solo'
 import DisplayActivity from './DisplayActivity'
+import DisplayButtonGrid from './DisplayButtonGrid'
 
 export default function Home() {
 
     return (
         <>
-            <div className="grid-wrapper">
-                <div className="category-grid">
-                    <CouplesButton />
-                    <CraftsButton />
-                    <FamilyButton />
-                    <FitnessButton />
-                    <FoodButton />
-                    <InsideButton />
-                    <OutsideButton />
-                    <ProjectsButton />
-                    <SoloButton />
-                </div>
-            </div>
-            <RandomActivityButton />
+            <DisplayButtonGrid />
             <DisplayActivity />
         </>
     )
