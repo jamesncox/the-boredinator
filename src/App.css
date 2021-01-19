@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+
+.App {
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+}
 
 .title {
   font-family: 'Bebas Neue', cursive;
@@ -13,18 +20,16 @@
   margin-top: -2rem;
 }
 
-.App {
-  text-align: center;
-}
-
 /* buttons */
 .random-activity {
+  font-family: 'Exo 2', sans-serif;
   background-color: rgb(0, 201, 0);
   color: white;
   padding: .25rem;
 }
 
 .take-me-there {
+  font-family: 'Exo 2', sans-serif;
   background-color: #f57c14; /* nickelodeon orange */
   color: white;
   padding: .25rem;
