@@ -1,4 +1,5 @@
 import {
+    CLEAR_SELECTED_ACTIVITY,
     SET_RANDOM_ACTIVITY_ALL,
     SET_RANDOM_COUPLES
 } from '../actionTypes'
@@ -17,6 +18,9 @@ export default (state = {
     randomActivity: []
 }, action) => {
     switch (action.type) {
+
+        case CLEAR_SELECTED_ACTIVITY:
+            return { ...state, randomActivity: [] }
 
         case SET_RANDOM_ACTIVITY_ALL:
             const activity = shuffleActivitiesToGetOne(activitiesData)
