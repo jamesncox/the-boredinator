@@ -20,8 +20,8 @@ function Crafts(props) {
     )
 }
 
-const mapDispatchToProps = dispatch = ({
-    setRandomCrafts: () => ({ type: SET_RANDOM_CRAFTS })
+const mapDispatchToProps = dispatch => ({
+    setRandomCrafts: () => dispatch({ type: SET_RANDOM_CRAFTS })
 })
 
 export default connect(null, mapDispatchToProps)(Crafts)
