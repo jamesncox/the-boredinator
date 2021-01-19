@@ -1,7 +1,14 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import {
+    CLEAR_SELECTED_ACTIVITY
+} from '../../actionTypes'
 
 function DisplayActivity(props) {
+
+    const handleClick = () => {
+        props.clearSelectedActivity()
+    }
 
     if (props.randomActivity.length === 0) {
         return null
@@ -28,6 +35,12 @@ function DisplayActivity(props) {
                         </div>
                     </div>
                 </div>
+                <button
+                    className="clear-button"
+                    onClick={e => handleClick(e)}
+                >
+                    Not this one.
+                </button>
             </>
         )
     }
@@ -37,4 +50,8 @@ const mapStateToProps = state => ({
     randomActivity: state.activities.randomActivity
 })
 
-export default connect(mapStateToProps)(DisplayActivity)
+const mapDispatchToProps = dispatch => ({
+    clearSelectedActivity: () => dispatch({ type: CLEAR_SELECTED_ACTIVITY })
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(DisplayActivity)
