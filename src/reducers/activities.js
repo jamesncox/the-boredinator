@@ -1,7 +1,8 @@
 import {
     CLEAR_SELECTED_ACTIVITY,
     SET_RANDOM_ACTIVITY_ALL,
-    SET_RANDOM_COUPLES
+    SET_RANDOM_COUPLES,
+    SET_RANDOM_CRAFTS
 } from '../actionTypes'
 import activitiesData from '../data/activities.json'
 
@@ -33,6 +34,12 @@ export default (state = {
             const couplesActivity = shuffleActivitiesToGetOne(couplesActivities)
             return { ...state, randomActivity: couplesActivity }
 
+        case SET_RANDOM_CRAFTS:
+            const craftsActivities = activitiesData.filter(a => {
+                return a.categories.includes("crafts")
+            })
+            const craftsActivity = shuffleActivitiesToGetOne(craftsActivities)
+            return { ...state, randomActivity: craftsActivity }
 
         default:
             return state
