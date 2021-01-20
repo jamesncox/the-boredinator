@@ -13,7 +13,7 @@ function Food(props) {
     return (
         <button
             className="food-button"
-            onClick={() => handleClick(e)}
+            onClick={e => handleClick(e)}
         >
             Food
         </button>
