@@ -26,7 +26,8 @@ button {
 
 .activity-title {
   font-family: 'Bebas Neue', cursive;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
+  margin-top: 3rem;
 }
 
 /* category button grid */
@@ -44,6 +45,10 @@ button {
   flex-wrap: wrap;
   justify-content: space-around;
   width: 80%;
+}
+
+.category-instructions {
+  margin-top: 3rem;
 }
 
 /* buttons */
@@ -68,13 +73,14 @@ button {
   background-color: white;
   color: rgb(25, 85, 134);;
   padding: .5rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 /* card display */
 .card-wrapper {
   display: flex;
   justify-content: center;
+  margin-top: -1rem;
 }
 
 .card {

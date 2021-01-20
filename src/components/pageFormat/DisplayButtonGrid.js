@@ -32,7 +32,7 @@ function DisplayButtonGrid(props) {
                         <SoloButton />
                     </div>
                 </div>
-                <p className="category-instructions">Or</p>
+                <p className="category-or">Or</p>
                 <RandomActivityButton />
             </>
         )
