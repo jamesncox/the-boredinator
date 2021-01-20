@@ -6,9 +6,11 @@ Feeling bored? Don't know what to do? Let The Boredinator inspire you to try new
 
 ## Features
 
-### Statemanagement with Redux
+- Statemanagement with Redux
 
-### CSS-only design, no CSS libraries
+- CSS-only design, no CSS libraries
+
+- Highly descriptive functions and commented code where necessary
 
 ## Open-source Contributions
 
