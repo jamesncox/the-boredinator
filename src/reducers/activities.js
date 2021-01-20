@@ -71,7 +71,6 @@ export default (state = {
                 return a.categories.includes("inside")
             })
             const insideActivity = shuffleActivitiesToGetOne(insideActivities)
-            console.log(insideActivity)
             return { ...state, randomActivity: insideActivity }
 
         default:
