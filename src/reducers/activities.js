@@ -6,7 +6,8 @@ import {
     SET_RANDOM_FAMILY,
     SET_RANDOM_WELLNESS,
     SET_RANDOM_FOOD,
-    SET_RANDOM_INSIDE
+    SET_RANDOM_INSIDE,
+    SET_RANDOM_OUTSIDE
 } from '../actionTypes'
 import activitiesData from '../data/activities.json'
 
@@ -72,6 +73,13 @@ export default (state = {
             })
             const insideActivity = shuffleActivitiesToGetOne(insideActivities)
             return { ...state, randomActivity: insideActivity }
+
+        case SET_RANDOM_OUTSIDE:
+            const outsideActivities = activitiesData.filter(a => {
+                return a.categories.includes("outside")
+            })
+            const outsideActivity = shuffleActivitiesToGetOne(outsideActivities)
+            return { ...state, randomActivity: outsideActivity }
 
         default:
             return state
