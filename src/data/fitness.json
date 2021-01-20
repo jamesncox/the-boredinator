@@ -23,5 +23,17 @@
             "couples",
             "family"
         ]
+    },
+    {
+        "id": 3,
+        "name": "Go For a Run!",
+        "description": "Everyone knows running is good for you. But it can get kind of boring. Try these different running workouts with both beginner and advanced samples.",
+        "url": "https://www.nomeatathlete.com/running-workouts/",
+        "image": "https://www.nomeatathlete.com/wp-content/uploads/2016/11/running-workouts-2-1024x592.jpg",
+        "alt": "Woman running on the road",
+        "categories": [
+            "fitness",
+            "outside"
+        ]
     }
 ]
