@@ -7,7 +7,8 @@ import {
     SET_RANDOM_WELLNESS,
     SET_RANDOM_FOOD,
     SET_RANDOM_INSIDE,
-    SET_RANDOM_OUTSIDE
+    SET_RANDOM_OUTSIDE,
+    SET_RANDOM_PROJECTS
 } from '../actionTypes'
 import activitiesData from '../data/activities.json'
 
@@ -80,6 +81,13 @@ const Reducer = (state = {
             })
             const outsideActivity = shuffleActivitiesToGetOne(outsideActivities)
             return { ...state, randomActivity: outsideActivity }
+
+        case SET_RANDOM_PROJECTS:
+            const projectsActivities = activitiesData.filter(a => {
+                return a.categories.includes("projects")
+            })
+            const projectsActivity = shuffleActivitiesToGetOne(projectsActivities)
+            return { ...state, randomActivity: projectsActivity }
 
         default:
             return state
