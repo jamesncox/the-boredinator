@@ -20,7 +20,7 @@ const shuffleActivitiesToGetOne = (a) => {
     return a.slice(0, 1);
 }
 
-export default (state = {
+const Reducer = (state = {
     randomActivity: []
 }, action) => {
     switch (action.type) {
@@ -85,3 +85,5 @@ export default (state = {
             return state
     }
 }
+
+export default Reducer
