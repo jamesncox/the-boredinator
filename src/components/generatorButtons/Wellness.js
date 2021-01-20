@@ -1,27 +1,27 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import {
-    SET_RANDOM_FITNESS
+    SET_RANDOM_WELLNESS
 } from '../../actionTypes'
 
-function Fitness(props) {
+function Wellness(props) {
 
     const handleClick = () => {
-        props.setRandomFitness()
+        props.setRandomWellness()
     }
 
     return (
         <button
-            className="fitness-button"
+            className="wellness-button"
             onClick={e => handleClick(e)}
         >
-            Fitness
+            Wellness
         </button>
     )
 }
 
 const mapDispatchToProps = dispatch => ({
-    setRandomFitness: () => dispatch({ type: SET_RANDOM_FITNESS })
+    setRandomWellness: () => dispatch({ type: SET_RANDOM_WELLNESS })
 })
 
-export default connect(null, mapDispatchToProps)(Fitness)
+export default connect(null, mapDispatchToProps)(Wellness)

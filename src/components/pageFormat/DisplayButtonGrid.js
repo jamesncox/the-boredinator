@@ -4,7 +4,7 @@ import RandomActivityButton from '../generatorButtons/RandomActivity'
 import CouplesButton from '../generatorButtons/Couples'
 import CraftsButton from '../generatorButtons/Crafts'
 import FamilyButton from '../generatorButtons/Family'
-import FitnessButton from '../generatorButtons/Fitness'
+import WellnessButton from '../generatorButtons/Wellness'
 import FoodButton from '../generatorButtons/Food'
 import InsideButton from '../generatorButtons/Inside'
 import OutsideButton from '../generatorButtons/Outside'
@@ -24,7 +24,7 @@ function DisplayButtonGrid(props) {
                         <CouplesButton />
                         <CraftsButton />
                         <FamilyButton />
-                        <FitnessButton />
+                        <WellnessButton />
                         <FoodButton />
                         <InsideButton />
                         <OutsideButton />
