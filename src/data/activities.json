@@ -162,5 +162,18 @@
             "solo",
             "wellness"
         ]
+    },
+    {
+        "id": 14,
+        "name": "Milk Paint Old Furniture",
+        "description": "Ever heard of milk paint? Me neither! Take a piece of old furniture like this dresser and turn it into something beautiful.",
+        "url": "https://www.justmeasuringup.com/milk-paint-dresser/",
+        "image": "https://www.justmeasuringup.com/wp-content/uploads/2018/04/028-Dresser-Redo.jpg",
+        "alt": "A refurbished dresser, finished slate blue milk paint and staged with flowers, old books and photographs",
+        "categories": [
+            "projects",
+            "solo",
+            "couples"
+        ]
     }
 ]
