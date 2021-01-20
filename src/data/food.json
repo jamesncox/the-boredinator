@@ -12,5 +12,18 @@
             "solo",
             "couples"
         ]
+    },
+    {
+        "id": 2,
+        "name": "Best Ever Chocolate Chip Cookies",
+        "description": "The New York Times says this is the best chocolate chip cookie recipe on the planet. How do you NOT try to make these??",
+        "url": "https://www.mybakingaddiction.com/new-york-times-chocolate-chip-cookies-recipe/",
+        "image": "https://www.mybakingaddiction.com/wp-content/uploads/2011/05/Baked-Chocolate-Chip-Cookies-12-of-16_resized.jpg",
+        "alt": "New York Times best chocolate chip cookies stacked on a plate",
+        "categories": [
+            "food",
+            "family",
+            "couples"
+        ]
     }
 ]
