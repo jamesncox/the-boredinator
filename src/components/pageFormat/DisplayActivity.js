@@ -4,6 +4,7 @@ import {
     CLEAR_SELECTED_ACTIVITY
 } from '../../actionTypes'
 import ImageLoad from '../hooks/ImageLoad'
+import BlurryImage from '../../assets/blurry image small.jpg'
 
 function DisplayActivity(props) {
 
@@ -21,7 +22,7 @@ function DisplayActivity(props) {
                     <div className="card">
                         <ImageLoad
                             src={props.randomActivity[0].image}
-                            placeholder={props.randomActivity[0].image}
+                            placeholder={BlurryImage}
                             alt={props.randomActivity[0].alt}
                             className="activity-image"
                         />
