@@ -8,7 +8,8 @@ import {
     SET_RANDOM_FOOD,
     SET_RANDOM_INSIDE,
     SET_RANDOM_OUTSIDE,
-    SET_RANDOM_PROJECTS
+    SET_RANDOM_PROJECTS,
+    SET_RANDOM_SOLO
 } from '../actionTypes'
 import activitiesData from '../data/activities.json'
 
@@ -88,6 +89,13 @@ const Reducer = (state = {
             })
             const projectsActivity = shuffleActivitiesToGetOne(projectsActivities)
             return { ...state, randomActivity: projectsActivity }
+
+        case SET_RANDOM_SOLO:
+            const soloActivities = activitiesData.filter(a => {
+                return a.categories.includes("solo")
+            })
+            const soloActivity = shuffleActivitiesToGetOne(soloActivities)
+            return { ...state, randomActivity: soloActivity }
 
         default:
             return state
