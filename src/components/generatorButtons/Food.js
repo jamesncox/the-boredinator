@@ -1,12 +1,27 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import {
+    SET_RANDOM_FOOD
+} from '../../actionTypes'
 
 function Food(props) {
 
+    const handleClick = () => {
+        props.setRandomFood()
+    }
+
     return (
-        <button className="food-button">
+        <button
+            className="food-button"
+            onClick={() => handleClick(e)}
+        >
             Food
         </button>
     )
 }
 
-export default Food
+const mapDispatchToProps = dispatch => ({
+    setRandomFood: () => dispatch({ type: SET_RANDOM_FOOD })
+})
+
+export default connect(null, mapDispatchToProps)(Food)
