@@ -1,12 +1,27 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import {
+    SET_RANDOM_INSIDE
+} from '../../actionTypes'
 
 function Inside(props) {
 
+    const handleClick = () => {
+        props.setRandomInside()
+    }
+
     return (
-        <button className="inside-button">
+        <button
+            className="inside-button"
+            onClick={e => handleClick(e)}
+        >
             Inside
         </button>
     )
 }
 
-export default Inside
+const mapDispatchToProps = dispatch => ({
+    setRandomInside: () => dispatch({ type: SET_RANDOM_INSIDE })
+})
+
+export default connect(null, mapDispatchToProps)(Inside)
