@@ -4,6 +4,8 @@
 
 [] Lazy loader is there and working, BUT I want to somehow render a placeholder of the SAME image about to load. I don't know if that's possible. I can check this one off when I finally figure out how to lazy laod the SAME image and not a small, local image.
 
+[] An alternative is to use a skeleton image loader. 
+
 [] Re-design the grid of category buttons. They just don't fit the theme.
 
 [] ADD A TON OF ACTIVITIES.
