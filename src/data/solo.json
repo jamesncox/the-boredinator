@@ -12,5 +12,17 @@
             "solo",
             "couples"
         ]
+    },
+    {
+        "id": 2,
+        "name": "Start a Journal",
+        "description": "Instead of doomscrolling on Twitter (yes, I see you!), start writing your thoughts down. Journaling is a great way to inspire yourself and others!",
+        "url": "https://penzu.com/how-to-start-and-write-a-journal",
+        "image": "https://miro.medium.com/max/4000/1*hXoAKUEgKa3o6CfuXTwKMQ.jpeg",
+        "alt": "A woman sitting cross-legged with an open journal in her lap, getting ready to write",
+        "categories": [
+            "solo",
+            "wellness"
+        ]
     }
 ]
