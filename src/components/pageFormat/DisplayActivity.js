@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import {
     CLEAR_SELECTED_ACTIVITY
 } from '../../actionTypes'
+import ImageLoad from '../hooks/ImageLoad'
 
 function DisplayActivity(props) {
 
@@ -18,8 +19,9 @@ function DisplayActivity(props) {
                 <p className="activity-title">{props.randomActivity[0].name}</p>
                 <div className="card-wrapper">
                     <div className="card">
-                        <img
+                        <ImageLoad
                             src={props.randomActivity[0].image}
+                            placeholder="placeholder.jpg"
                             alt={props.randomActivity[0].alt}
                             className="activity-image"
                         />
