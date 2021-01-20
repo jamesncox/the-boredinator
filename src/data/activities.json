@@ -125,5 +125,17 @@
             "wellness",
             "outside"
         ]
+    },
+    {
+        "id": 11,
+        "name": "Yoga with Adriene",
+        "description": "Yoga is a great way to challenge both your body and mind, or simply unwind. The Yoga with Adriene YouTube channel offers hours of free Yoga workouts, covering most needs.",
+        "url": "https://www.youtube.com/user/yogawithadriene",
+        "image": "https://i1.wp.com/elbaflamenco.com/wp-content/uploads/2018/07/yoga-with-adriene-library.jpg?fit=1100%2C619&ssl=1",
+        "alt": "Adriene holding a yoga strecthing pose",
+        "categories": [
+            "wellness",
+            "inside"
+        ]
     }
 ]
