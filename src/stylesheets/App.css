@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+button {
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+}
+
+/* headers */
+.title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.subtitle {
+  font-family: 'Hachi Maru Pop', cursive;
+  font-size: .75rem;
+  margin-top: -2.5rem;
+}
+
+.activity-title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
+}
+
+/* category button grid */
+.grid-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.category-grid {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 1rem;
+  /* margin-bottom: 1rem; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+}
+
+/* buttons */
+.random-activity {
+  font-family: 'Exo 2', sans-serif;
+  background-color: rgb(25, 85, 134);
+  color: white;
+  padding: .50rem;
+}
+
+.take-me-there {
+  font-family: 'Exo 2', sans-serif;
+  background-color: rgb(25, 85, 134);
+  color: white;
+  padding: .5rem;
+  cursor: pointer;
+}
+
+.clear-button {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  background-color: white;
+  color: rgb(25, 85, 134);;
+  padding: .5rem;
+  margin-top: 1rem;
+}
+
+/* card display */
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 90%;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 15px;
+}
+
+/* image */
+.activity-image {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}

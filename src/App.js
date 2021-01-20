@@ -1,6 +1,7 @@
 import React from 'react';
-import './App.css';
-import './responsive.css';
+import './stylesheets/App.css';
+import './stylesheets/responsive.css';
+import './stylesheets/categories.css'
 import Title from './components/pageFormat/Title.js'
 import Home from './components/pageFormat/Home'
 
