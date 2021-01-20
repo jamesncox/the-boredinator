@@ -47,5 +47,18 @@
             "wellness",
             "inside"
         ]
+    },
+    {
+        "id": 5,
+        "name": "Guided Meditation",
+        "description": "Life is chaotic! We all are stressed out in our own way. Try guided meditation and ease your mind, body and soul. Tara Brach has hundreds of meditations to explore. Give one or two a chance!",
+        "url": "https://www.tarabrach.com/guided-meditations/",
+        "image": "https://www.tarabrach.com/wp-content/uploads/2021/01/Untitled-design-1-633x310.png",
+        "alt": "A beautiful sunset on the ocean horizon with sandy beach and gentle waves in the foreground",
+        "categories": [
+            "wellness",
+            "solo",
+            "couples"
+        ]
     }
 ]
