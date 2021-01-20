@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Homemade Pizza Night",
+        "description": "Looking for a fun meal to make with your family, friends or just yourself? Pizza can do anything!",
+        "url": "https://www.foodnetwork.com/fn-dish/recipes/2016/04/diy-pizza-night-like-youve-never-seen-it-before",
+        "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/23/1/FN_buffalo-pizza-008_s4x3.jpg.rend.hgtvcom.616.462.suffix/1384540642451.jpeg",
+        "alt": "Wingless Buffalo Chicken Pizza",
+        "categories": [
+            "food",
+            "family",
+            "solo",
+            "couples"
+        ]
+    }
+]
