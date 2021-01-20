@@ -5,11 +5,12 @@ import {
     SET_RANDOM_CRAFTS,
     SET_RANDOM_FAMILY,
     SET_RANDOM_WELLNESS,
-    SET_RANDOM_FOOD
+    SET_RANDOM_FOOD,
+    SET_RANDOM_INSIDE
 } from '../actionTypes'
 import activitiesData from '../data/activities.json'
 
-// use the following function by each category a single, random entry
+// use the following function on each category to set a single, random entry
 const shuffleActivitiesToGetOne = (a) => {
     for (let i = a.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -64,6 +65,13 @@ export default (state = {
             })
             const foodActivity = shuffleActivitiesToGetOne(foodActivities)
             return { ...state, randomActivity: foodActivity }
+
+        case SET_RANDOM_INSIDE:
+            const insideActivities = activitiesData.filter(a => {
+                return a.categories.includes("inside")
+            })
+            const insideActivity = shuffleActivitiesToGetOne(insideActivities)
+            return { ...state, randomActivity: insideActivity }
 
         default:
             return state
