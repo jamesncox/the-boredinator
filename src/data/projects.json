@@ -25,5 +25,17 @@
             "solo",
             "couples"
         ]
+    },
+    {
+        "id": 3,
+        "name": "DIY Fire Pit",
+        "description": "Does your outdoor space need a little work? Check out this simple and cost-effective homemade fire pit! Can you already smell the roasted marshmallows?",
+        "url": "https://buildingourrez.com/how-to-make-a-diy-fire-pit-in-your-backyard/",
+        "image": "https://buildingourrez.com/wp-content/uploads/2018/09/diy-backyard-fire-pit_0550-2000x1500.jpg",
+        "alt": "A homemade firepit from cinder blocks with chairs positioned around the pit in a semi-circle",
+        "categories": [
+            "projects",
+            "outside"
+        ]
     }
 ]
