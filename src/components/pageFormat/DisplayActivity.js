@@ -21,7 +21,7 @@ function DisplayActivity(props) {
                     <div className="card">
                         <ImageLoad
                             src={props.randomActivity[0].image}
-                            placeholder="placeholder.jpg"
+                            placeholder={props.randomActivity[0].image}
                             alt={props.randomActivity[0].alt}
                             className="activity-image"
                         />
