@@ -10,7 +10,7 @@ Feeling bored? Don't know what to do? Let The Boredinator inspire you to try new
 
 - CSS-only design, no CSS libraries
 
-- Highly descriptive functions and commented code where necessary
+- Custom, reusable Hook called ImageLoad to lazy load images
 
 ## Open-source Contributions
 
