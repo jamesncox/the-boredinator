@@ -26,5 +26,16 @@
             "solo",
             "couples"
         ]
+    },
+    {
+        "id": 3,
+        "name": "Scavenger Hunt - Couples",
+        "description": "Tired of spending date nights on the couch watching Netflix? Check out this awesome scavenger hunt and other date night ideas from The Dating Divas. They include a free PDF to get started with!",
+        "url": "https://www.thedatingdivas.com/scavenger-hunt-date-night/",
+        "image": "https://www.thedatingdivas.com/wp-content/uploads/2019/02/Scavenger-Hunt-Date-Night-Printable-Set.jpg",
+        "alt": "The Dating Divas collection of date night scavenger hunt included activities",
+        "categories": [
+            "couples"
+        ]
     }
 ]
