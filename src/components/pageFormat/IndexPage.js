@@ -6,6 +6,7 @@ import CouplesIndex from '../categoriesIndex/CouplesIndex'
 import CraftsIndex from '../categoriesIndex/CraftsIndex'
 import FamilyIndex from '../categoriesIndex/FamilyIndex'
 import FoodIndex from '../categoriesIndex/FoodIndex'
+import InsideIndex from '../categoriesIndex/InsideIndex'
 
 function IndexPage(props) {
 
@@ -16,10 +17,12 @@ function IndexPage(props) {
             <>
                 <p className="index-title">INDEX</p>
                 <HomeButton />
+
                 <CouplesIndex />
                 <CraftsIndex />
                 <FamilyIndex />
                 <FoodIndex />
+                <InsideIndex />
 
                 <HomeButton />
             </>

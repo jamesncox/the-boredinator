@@ -39,7 +39,7 @@ ol {
 .index-title {
   margin-top: 2rem;
   font-size: 2rem;
-  /* margin-bottom: -1rem; */
+  margin-bottom: -.5rem;
 }
 
 .index-category-title {
