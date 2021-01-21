@@ -25,5 +25,17 @@
             "family",
             "couples"
         ]
+    },
+    {
+        "id": 3,
+        "name": "Organize Your Fridge",
+        "description": "Do you know what's in that tupperware all the way in the back of your fridge? Do you even remember the last time you cleaned out your fridge? This handy guide helps you clean up and organize your refrigerator like a pro!",
+        "url": "https://www.simplyss.com/blog/how-to-organize-your-refrigerator-in-12-simple-steps/",
+        "image": "https://www.simplyss.com/blog/wp-content/uploads/2018/07/sss-fridge-org-after.jpg",
+        "alt": "Refrigerator with highly organized items and very clean shelves",
+        "categories": [
+            "food",
+            "projects"
+        ]
     }
 ]
