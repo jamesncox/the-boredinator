@@ -11,11 +11,11 @@ function CouplesIndex(props) {
         <>
             <p className="index-category-title">Couples</p>
             <div className="index-category-wrapper">
-                <ul style={{ listStyleType: "none" }}>
+                <ol style={{ listStyleType: "none" }}>
                     {couplesActivities.map(activity => {
                         return <li key={activity.id}>{activity.name}</li>
                     })}
-                </ul>
+                </ol>
             </div>
         </>
     )

@@ -1,22 +1,16 @@
-/* @media only screen and (min-width: 900px) {
-    .title {
-      font-size: 4rem;
-    }
+@media only screen and (min-width: 600px) {
+  .index-category-wrapper {
+    width: 400px;
+  }
 
-    .subtitle {
-      font-size: 1rem;
-      margin-top: -3rem;
-    }
+  .card {
+    width: 75%;
+  }
 
-    .card {
-      width: 35%;
-    }
+}
 
-    .category-grid {
-      width: 25%;
-    }
-
-    .category-instructions {
-      font-size: 1.25rem;
-    }
-} */
+@media only screen and (min-width: 900px) {
+  .card {
+    width: 40%;
+  }
+}

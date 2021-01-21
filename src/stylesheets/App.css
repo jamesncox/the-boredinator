@@ -7,14 +7,13 @@ button {
 }
 
 .App {
-  /* text-align: center; */
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Exo 2', sans-serif;
 }
 
-/* headers */
+/* headers / titles */
 .title {
   font-family: 'Bebas Neue', cursive;
   font-size: 3rem;
@@ -54,14 +53,14 @@ button {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 5px;
   padding: 1rem;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 90%;
 }
 
-.category-instructions {
+.category-grid-instructions {
   margin-top: 3rem;
 }
 
@@ -72,6 +71,7 @@ button {
   color: white;
   padding: .50rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .take-me-there {
@@ -80,6 +80,7 @@ button {
   color: white;
   padding: .5rem;
   cursor: pointer;
+  justify-self: center;
 }
 
 .clear-button {
@@ -98,7 +99,7 @@ button {
   background-color: white;
   color: rgb(25, 85, 134);
   padding: .5rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -107,13 +108,14 @@ button {
   background-color: rgb(25, 85, 134);
   color: white;
   padding: .50rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 /* card display */
 .card-wrapper {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
+  text-align: center;
   margin-top: -1rem;
 }
 
@@ -137,7 +139,6 @@ button {
 .index-category-wrapper {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 5px;
-  padding: .25rem;
   margin-top: -1rem;
   width: 90%;
 }
