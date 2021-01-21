@@ -10,6 +10,7 @@ import InsideButton from '../generatorButtons/Inside'
 import OutsideButton from '../generatorButtons/Outside'
 import ProjectsButton from '../generatorButtons/Projects'
 import SoloButton from '../generatorButtons/Solo'
+import IndexButton from './IndexButton'
 
 function DisplayButtonGrid(props) {
 
@@ -32,8 +33,9 @@ function DisplayButtonGrid(props) {
                         <SoloButton />
                     </div>
                 </div>
-                <p className="category-or">Or</p>
+                {/* <p className="category-or">Or</p> */}
                 <RandomActivityButton />
+                <IndexButton />
             </>
         )
     }

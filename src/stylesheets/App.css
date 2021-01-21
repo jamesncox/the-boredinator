@@ -57,6 +57,7 @@ button {
   background-color: rgb(25, 85, 134);
   color: white;
   padding: .50rem;
+  margin-top: 1rem;
 }
 
 .take-me-there {
@@ -68,6 +69,16 @@ button {
 }
 
 .clear-button {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  background-color: white;
+  color: rgb(25, 85, 134);
+  padding: .5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.index-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   background-color: white;
