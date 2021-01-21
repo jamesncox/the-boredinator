@@ -5,12 +5,12 @@ import './stylesheets/categories.css'
 // import './stylesheets/light-dark-theme.css'
 import Title from './components/pageFormat/Title.js'
 import Home from './components/pageFormat/Home'
-import ThemeSwitcher from './components/pageFormat/ThemeSwitcher'
+// import ThemeSwitcher from './components/pageFormat/ThemeSwitcher'
 
 function App() {
   return (
     <div className="App">
-      <ThemeSwitcher />
+      {/* <ThemeSwitcher /> */}
       <Title />
       <Home />
     </div>
