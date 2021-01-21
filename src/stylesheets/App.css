@@ -88,6 +88,14 @@ button {
   margin-bottom: 2rem;
 }
 
+.home-button {
+  font-family: 'Exo 2', sans-serif;
+  background-color: rgb(25, 85, 134);
+  color: white;
+  padding: .50rem;
+  margin-top: 1rem;
+}
+
 /* card display */
 .card-wrapper {
   display: flex;
