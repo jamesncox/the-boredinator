@@ -6,16 +6,16 @@ body {
   width: 100%;
 }
 .theme-light {
-  --color-primary: #0060df;
-  --color-secondary: #fbfbfe;
+  --color-primary: white;
+  --color-secondary: rgb(25, 85, 134);
   --color-accent: #fd6f53;
   --font-color: #000000;
 }
 .theme-dark {
-  --color-primary: #17ed90;
+  --color-primary: rgb(25, 85, 134);
   --color-secondary: #2a2c2d;
   --color-accent: #12cdea;
-  --font-color: #ffffff;
+  --font-color: white;
 }
 .container {
   display: flex;
