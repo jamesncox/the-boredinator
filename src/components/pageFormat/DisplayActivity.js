@@ -42,7 +42,7 @@ function DisplayActivity(props) {
                     className="clear-button"
                     onClick={e => handleClick(e)}
                 >
-                    Not this one.
+                    Go Back
                 </button>
             </>
         )
