@@ -201,5 +201,19 @@
             "inside",
             "outside"
         ]
+    },
+    {
+        "id": 17,
+        "name": "Plant a Tree!",
+        "description": "It's good for the planet and it makes your yard look nice. Sounds like a win-win! Take your newly acquired tree-planting skills to the next level and discovere where you can plant trees in your community. Save the planet even more!",
+        "url": "https://www.growingagreenerworld.com/how-to-plant-a-tree/",
+        "image": "https://www.growingagreenerworld.com/wp-content/uploads/2017/04/PlantingDepth-LR.jpg",
+        "alt": "A young tree being planted into a newly dug hole in the ground",
+        "categories": [
+            "proejcts",
+            "outside",
+            "family",
+            "solo"
+        ]
     }
 ]
