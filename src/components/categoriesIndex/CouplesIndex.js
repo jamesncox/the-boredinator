@@ -7,13 +7,26 @@ function CouplesIndex(props) {
         return a.categories.includes("couples")
     })
 
+    const alphabetizedActivities = couplesActivities.sort(function (a, b) {
+        if (a.name < b.name) { return -1; }
+        if (a.name > b.name) { return 1; }
+        return 0;
+    })
+
     return (
         <>
             <p className="index-category-title">Couples</p>
             <div className="index-category-wrapper">
                 <ol style={{ listStyleType: "none" }}>
-                    {couplesActivities.map(activity => {
-                        return <li key={activity.id}>{activity.name}</li>
+                    {alphabetizedActivities.map(activity => {
+                        return (
+                            <p
+                                key={activity.id}
+                                className="index-list-items"
+                            >
+                                {activity.name}
+                            </p>
+                        )
                     })}
                 </ol>
             </div>

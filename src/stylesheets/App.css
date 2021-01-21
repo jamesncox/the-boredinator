@@ -142,3 +142,9 @@ button {
   margin-top: -1rem;
   width: 90%;
 }
+
+.index-list-items {
+  font-weight: bold;
+  color:  rgb(25, 85, 134);
+  cursor: pointer;
+}
