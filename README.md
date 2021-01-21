@@ -6,11 +6,15 @@ Feeling bored? Don't know what to do? Let The Boredinator inspire you to try new
 
 ## Features
 
-- Statemanagement with Redux
+- State management with Redux
 
 - CSS-only design, no CSS libraries
 
 - Custom, reusable Hook called ImageLoad to lazy load images
+
+- Custom JSON data objects, simulating a local API
+
+- Separate and reusable components
 
 ## Open-source Contributions
 
