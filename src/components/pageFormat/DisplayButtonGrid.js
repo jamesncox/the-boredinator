@@ -19,7 +19,7 @@ function DisplayButtonGrid(props) {
     } else {
         return (
             <>
-                <p className="category-grid-instructions">Select a Category</p>
+                <p className="category-grid-instructions">Select A Category</p>
                 <div className="grid-wrapper">
                     <div className="category-grid">
                         <CouplesButton />
