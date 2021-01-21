@@ -38,7 +38,8 @@ ol {
 
 .index-title {
   margin-top: 2rem;
-  font-size: 1.65rem;
+  font-size: 2rem;
+  /* margin-bottom: -1rem; */
 }
 
 .index-category-title {
@@ -109,8 +110,9 @@ ol {
 
 .home-button {
   font-family: 'Exo 2', sans-serif;
-  background-color: rgb(25, 85, 134);
-  color: white;
+  font-weight: bold;
+  background-color: white;
+  color: rgb(25, 85, 134);
   padding: .50rem;
   margin-top: 2rem;
 }

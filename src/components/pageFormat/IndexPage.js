@@ -5,6 +5,7 @@ import DisplayActivity from './DisplayActivity'
 import CouplesIndex from '../categoriesIndex/CouplesIndex'
 import CraftsIndex from '../categoriesIndex/CraftsIndex'
 import FamilyIndex from '../categoriesIndex/FamilyIndex'
+import FoodIndex from '../categoriesIndex/FoodIndex'
 
 function IndexPage(props) {
 
@@ -14,9 +15,11 @@ function IndexPage(props) {
         return (
             <>
                 <p className="index-title">INDEX</p>
+                <HomeButton />
                 <CouplesIndex />
                 <CraftsIndex />
                 <FamilyIndex />
+                <FoodIndex />
 
                 <HomeButton />
             </>
