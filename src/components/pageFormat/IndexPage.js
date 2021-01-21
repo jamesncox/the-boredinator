@@ -8,6 +8,7 @@ import FamilyIndex from '../categoriesIndex/FamilyIndex'
 import FoodIndex from '../categoriesIndex/FoodIndex'
 import InsideIndex from '../categoriesIndex/InsideIndex'
 import OutsideIndex from '../categoriesIndex/OutsideIndex'
+import ProjectsIndex from '../categoriesIndex/ProjectsIndex'
 
 function IndexPage(props) {
 
@@ -25,6 +26,7 @@ function IndexPage(props) {
                 <FoodIndex />
                 <InsideIndex />
                 <OutsideIndex />
+                <ProjectsIndex />
 
                 <HomeButton />
             </>
