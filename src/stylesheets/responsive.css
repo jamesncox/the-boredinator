@@ -1,3 +1,17 @@
+@media only screen and (min-width: 400px) {
+
+  ol {
+    margin-left: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+
+  ol {
+    margin-left: 2rem;
+  }
+}
+
 @media only screen and (min-width: 600px) {
   .index-category-wrapper {
     width: 400px;
@@ -10,6 +24,11 @@
 }
 
 @media only screen and (min-width: 900px) {
+
+  ol {
+    margin-left: 3rem;
+  }
+
   .card {
     width: 40%;
   }
