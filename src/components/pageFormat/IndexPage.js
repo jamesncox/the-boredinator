@@ -10,6 +10,7 @@ import InsideIndex from '../categoriesIndex/InsideIndex'
 import OutsideIndex from '../categoriesIndex/OutsideIndex'
 import ProjectsIndex from '../categoriesIndex/ProjectsIndex'
 import SoloIndex from '../categoriesIndex/SoloIndex'
+import WellnessIndex from '../categoriesIndex/WellnessIndex'
 
 function IndexPage(props) {
 
@@ -29,6 +30,7 @@ function IndexPage(props) {
                 <OutsideIndex />
                 <ProjectsIndex />
                 <SoloIndex />
+                <WellnessIndex />
 
                 <HomeButton />
             </>
