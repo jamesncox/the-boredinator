@@ -33,7 +33,7 @@ function DisplayActivity(props) {
                                 target="_blank"
                                 rel="noreferrer noopener"
                             >
-                                <button className="take-me-there">Take me there!</button>
+                                <button className="take-me-there">Take Me There!</button>
                             </form>
                         </div>
                     </div>
