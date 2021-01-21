@@ -187,5 +187,19 @@
             "projects",
             "outside"
         ]
+    },
+    {
+        "id": 16,
+        "name": "How to Propagate a Plant",
+        "description": "Who doesn't love plants? Now you can learn to have MORE. For FREE. At this point, you're welcome!",
+        "url": "https://www.housebeautiful.com/lifestyle/gardening/a30784268/how-to-propagate-plant-from-cuttings/",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-hb-prop-plant-final-clean-00-00-49-08-still010-1581721742.jpg?resize=768:*",
+        "alt": "A plant in a pot with a newly propagated section being watered",
+        "categories": [
+            "projects",
+            "solo",
+            "inside",
+            "outside"
+        ]
     }
 ]
