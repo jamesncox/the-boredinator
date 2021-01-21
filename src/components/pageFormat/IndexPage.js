@@ -1,8 +1,9 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import CouplesIndex from '../categoriesIndex/CouplesIndex'
 import HomeButton from './HomeButton'
 import DisplayActivity from './DisplayActivity'
+import CouplesIndex from '../categoriesIndex/CouplesIndex'
+import CraftsIndex from '../categoriesIndex/CraftsIndex'
 
 function IndexPage(props) {
 
@@ -13,6 +14,7 @@ function IndexPage(props) {
             <>
                 <p className="index-title">INDEX</p>
                 <CouplesIndex />
+                <CraftsIndex />
                 <HomeButton />
             </>
         )
