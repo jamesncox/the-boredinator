@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "The Floor is Lava!",
+        "name": "The Floor is Lava",
         "description": "Gather your couch cushions, blankets and pillows, and try not to burn up alive.",
         "url": "https://www.parents.com/fun/activities/indoor/ways-to-play-floor-is-lava-game-at-home/",
         "image": "https://i.kym-cdn.com/photos/images/newsfeed/000/359/557/543.jpg",
@@ -37,7 +37,7 @@
     },
     {
         "id": 4,
-        "name": "Take a Hike!",
+        "name": "Take a Hike",
         "description": "Use AllTrails to find a great hike near you!",
         "url": "https://www.alltrails.com/",
         "image": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2019-8/couple-hiking-mountain-climbing-1296x728-header.jpg?w=1155&h=1528",
@@ -51,7 +51,7 @@
     },
     {
         "id": 5,
-        "name": "Adopt a Pet!",
+        "name": "Adopt a Pet",
         "description": "Really bored? And often? Help rescue a pet in need of a good home! You won't be bored, we promise!",
         "url": "https://www.adoptapet.com/",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFCyJt4CfbLaIvAJK1lX91LKS2tra9IpUjRQ&usqp=CAU",
@@ -116,7 +116,7 @@
     },
     {
         "id": 10,
-        "name": "Go For a Run!",
+        "name": "Go For a Run",
         "description": "Everyone knows running is good for you. But it can get kind of boring. Try these different running workouts with both beginner and advanced samples.",
         "url": "https://www.nomeatathlete.com/running-workouts/",
         "image": "https://www.nomeatathlete.com/wp-content/uploads/2016/11/running-workouts-2-1024x592.jpg",
@@ -204,7 +204,7 @@
     },
     {
         "id": 17,
-        "name": "Plant a Tree!",
+        "name": "Plant a Tree",
         "description": "It's good for the planet and it makes your yard look nice. Sounds like a win-win! Take your newly acquired tree planting skills to the next level and discover where you can plant trees in your community. Save the planet even more!",
         "url": "https://www.growingagreenerworld.com/how-to-plant-a-tree/",
         "image": "https://www.growingagreenerworld.com/wp-content/uploads/2017/04/PlantingDepth-LR.jpg",

@@ -8,14 +8,16 @@ function CouplesIndex(props) {
     })
 
     return (
-        <div>
-            <p>Couples</p>
-            <ul>
-                {couplesActivities.map(activity => {
-                    return <li>{activity.name}</li>
-                })}
-            </ul>
-        </div>
+        <>
+            <p className="index-category-title">Couples</p>
+            <div className="index-category-wrapper">
+                <ul style={{ listStyleType: "none" }}>
+                    {couplesActivities.map(activity => {
+                        return <li key={activity.id}>{activity.name}</li>
+                    })}
+                </ul>
+            </div>
+        </>
     )
 
 }

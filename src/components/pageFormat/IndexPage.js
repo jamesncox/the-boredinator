@@ -6,6 +6,7 @@ function IndexPage(props) {
 
     return (
         <>
+            <p className="index-title">INDEX</p>
             <CouplesIndex />
             <HomeButton />
         </>

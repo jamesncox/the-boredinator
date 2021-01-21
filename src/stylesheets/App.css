@@ -30,6 +30,17 @@ button {
   margin-top: 3rem;
 }
 
+.index-title {
+  margin-top: 2rem;
+  font-size: 1.65rem;
+}
+
+.index-category-title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.25rem;
+  /* margin-top: 3rem; */
+}
+
 /* category button grid */
 .grid-wrapper {
   display: flex;
@@ -117,4 +128,13 @@ button {
 .activity-image {
   width: 100%;
   border-radius: 5px 5px 0 0;
+}
+
+/* index table of contents */
+.index-category-wrapper {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: .25rem;
+  margin-top: -1rem;
+  width: 90%;
 }
