@@ -267,5 +267,18 @@
             "crafts",
             "family"
         ]
+    },
+    {
+        "id": 23,
+        "name": "Stream A Live Concert",
+        "description": "Do you miss attending live concerts as much as I do? Thankfully Songkick keeps track of hundreds of live streams, many of which are free, and most streams cost around $20. Enjoy a live concert in the comfort of your own home, and turn it up as loud as you want!",
+        "url": "https://www.songkick.com/live-stream-concerts",
+        "image": "https://assets.sk-static.com/images/nw/components/live-streams-brief/live-streams-hero-image.png",
+        "alt": "Various screen shots of musicians performing live in a recorded studio setting for live streaming",
+        "categories": [
+            "couples",
+            "inside",
+            "solo"
+        ]
     }
 ]
