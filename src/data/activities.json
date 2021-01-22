@@ -58,7 +58,6 @@
         "alt": "Young puppy and kitten sitting in a field, looking incredibly adorable",
         "categories": [
             "family",
-            "projects",
             "solo",
             "couples"
         ]
@@ -86,8 +85,7 @@
         "alt": "New York Times best chocolate chip cookies stacked on a plate",
         "categories": [
             "food",
-            "family",
-            "couples"
+            "family"
         ]
     },
     {
@@ -98,9 +96,7 @@
         "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/indoor-scavenger-hunt-wide-750-x-500-1586175956.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=768:*",
         "alt": "Around the house scavenger hunt list with about 40 items to check off",
         "categories": [
-            "family",
-            "inside",
-            "outside"
+            "family"
         ]
     },
     {
@@ -147,8 +143,7 @@
         "alt": "A beautiful sunset on the ocean horizon with sandy beach and gentle waves in the foreground",
         "categories": [
             "wellness",
-            "solo",
-            "couples"
+            "solo"
         ]
     },
     {
@@ -171,9 +166,7 @@
         "image": "https://www.justmeasuringup.com/wp-content/uploads/2018/04/028-Dresser-Redo.jpg",
         "alt": "A refurbished dresser, finished slate blue milk paint and staged with flowers, old books and photographs",
         "categories": [
-            "projects",
-            "solo",
-            "couples"
+            "projects"
         ]
     },
     {
@@ -197,7 +190,6 @@
         "alt": "A plant in a pot with a newly propagated section being watered",
         "categories": [
             "projects",
-            "solo",
             "inside",
             "outside"
         ]
@@ -210,7 +202,7 @@
         "image": "https://www.growingagreenerworld.com/wp-content/uploads/2017/04/PlantingDepth-LR.jpg",
         "alt": "A young tree being planted into a newly dug hole in the ground",
         "categories": [
-            "proejcts",
+            "projects",
             "outside",
             "family",
             "solo"
@@ -250,6 +242,18 @@
         "categories": [
             "projects",
             "inside"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Bicycle Date Ideas",
+        "description": "Need to get out, but don't want to leave your true love? Take a romantic bike ride with your significant other! This article has 10 unique ideas to explore while riding your bikes. ",
+        "url": "https://momentummag.com/ten-fun-bicycle-date-ideas/",
+        "image": "https://momentummag.com/wp-content/uploads/2015/06/Wellness_Bike_Date_Thomas_Rousing.jpg",
+        "alt": "A couple riding their bikes alongside a metropolitan river with the sun reflecting off the water",
+        "categories": [
+            "couples",
+            "outside"
         ]
     }
 ]
