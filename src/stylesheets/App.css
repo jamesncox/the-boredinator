@@ -10,6 +10,26 @@ ol {
   margin-left: 1rem;
 }
 
+.light-theme {
+  --font-color: black;
+  --background-color: white;
+  --button-font-color: rgb(25, 85, 134);
+  --button-outline-color: rgb(25, 85, 134);
+  --grid-color-full: rgba(127, 223, 252);
+  --grid-color-mid: rgba(127, 223, 252, .5);
+  --grid-color-light: rgba(127, 223, 252, .1);
+}
+
+.dark-theme {
+  --font-color: white;
+  --background-color: rgb(25, 85, 134);
+  --button-font-color: white;
+  --button-outline-color: white;
+  --grid-color-full: rgb(141, 1, 255);
+  --grid-color-mid: rgb(177, 81, 255);
+  --grid-color-light: rgb(203, 140, 255);
+}
+
 .App {
   display: flex;
   flex-direction: column;
