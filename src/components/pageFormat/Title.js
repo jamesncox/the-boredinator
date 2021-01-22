@@ -7,7 +7,7 @@ export default function Title() {
                 The Boredinator
             </h1>
             <p className="subtitle">
-                Less screens. New ideas. More fun!
+                Less Screens. New Ideas. More Fun!
             </p>
         </>
     )

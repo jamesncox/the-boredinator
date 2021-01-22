@@ -10,5 +10,17 @@
             "crafts",
             "family"
         ]
+    },
+    {
+        "id": 2,
+        "name": "Build Your Own Board Game",
+        "description": "Do you ever get tired of playing the same games over and over? Why not make your own! You could start totally from scratch, or modify a family favorite. Check out these ideas on how to get started making your own game!",
+        "url": "https://www.instructables.com/Build-your-Own-Board-Game/",
+        "image": "https://content.instructables.com/ORIG/FMN/GKS2/I301KOV3/FMNGKS2I301KOV3.jpg?auto=webp&frame=1&width=933&height=1024&fit=bounds&md=ee5a315a26c88dd0abdc92c20871158a",
+        "alt": "An assortment of materials needed to design and create a board game, including tablet, game pieces and paper",
+        "categories": [
+            "crafts",
+            "family"
+        ]
     }
 ]

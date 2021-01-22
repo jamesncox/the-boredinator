@@ -10,6 +10,7 @@ import InsideButton from '../generatorButtons/Inside'
 import OutsideButton from '../generatorButtons/Outside'
 import ProjectsButton from '../generatorButtons/Projects'
 import SoloButton from '../generatorButtons/Solo'
+import IndexButton from './IndexButton'
 
 function DisplayButtonGrid(props) {
 
@@ -18,7 +19,7 @@ function DisplayButtonGrid(props) {
     } else {
         return (
             <>
-                <p className="category-instructions">Select a category</p>
+                <p className="category-grid-instructions">Select A Category</p>
                 <div className="grid-wrapper">
                     <div className="category-grid">
                         <CouplesButton />
@@ -32,8 +33,8 @@ function DisplayButtonGrid(props) {
                         <SoloButton />
                     </div>
                 </div>
-                <p className="category-or">Or</p>
                 <RandomActivityButton />
+                <IndexButton />
             </>
         )
     }

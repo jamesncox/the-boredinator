@@ -1,26 +1,35 @@
+@media only screen and (min-width: 400px) {
+
+  ol {
+    margin-left: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+
+  ol {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .index-category-wrapper {
+    width: 400px;
+  }
+
+  .card {
+    width: 75%;
+  }
+
+}
+
 @media only screen and (min-width: 900px) {
-    .title {
-      font-size: 4rem;
-    }
 
-    .subtitle {
-      font-size: 1rem;
-      margin-top: -3rem;
-    }
+  ol {
+    margin-left: 3rem;
+  }
 
-    .card {
-      width: 35%;
-    }
-
-    .category-grid {
-      width: 25%;
-    }
-
-    .category-instructions {
-      font-size: 1.25rem;
-    }
-
-    .category-or {
-      font-size: 1.25rem;
-    }
+  .card {
+    width: 40%;
+  }
 }

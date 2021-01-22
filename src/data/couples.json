@@ -37,5 +37,43 @@
         "categories": [
             "couples"
         ]
+    },
+    {
+        "id": 4,
+        "name": "Bicycle Date Ideas",
+        "description": "Need to get out, but don't want to leave your true love? Take a romantic bike ride with your significant other! This article has 10 unique ideas to explore while riding your bikes. ",
+        "url": "https://momentummag.com/ten-fun-bicycle-date-ideas/",
+        "image": "https://momentummag.com/wp-content/uploads/2015/06/Wellness_Bike_Date_Thomas_Rousing.jpg",
+        "alt": "A couple riding their bikes alongside a metropolitan river with the sun reflecting off the water",
+        "categories": [
+            "couples",
+            "outside"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Stream A Live Concert",
+        "description": "Do you miss attending live concerts as much as I do? Thankfully Songkick keeps track of hundreds of live streams, many of which are free, and most streams cost around $20. Enjoy a live concert in the comfort of your own home, and turn it up as loud as you want!",
+        "url": "https://www.songkick.com/live-stream-concerts",
+        "image": "https://assets.sk-static.com/images/nw/components/live-streams-brief/live-streams-hero-image.png",
+        "alt": "Various screen shots of musicians performing live in a recorded studio setting for live streaming",
+        "categories": [
+            "couples",
+            "inside",
+            "solo"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Water Gun Fight",
+        "description": "Grab some water guns at your local dollar store and have an epic water gun fight. Don't forget the water balloons too! Have a blast while you beat the heat. Check out these water gun games ideas too.",
+        "url": "https://www.playpartyplan.com/outdoor-water-games/",
+        "image": "https://cdn.lifehack.org/wp-content/uploads/2014/10/07031039/cheap-and-fun-date-ideas-watergun.jpg",
+        "alt": "A man and woman shooting each other with water guns in a park",
+        "categories": [
+            "family",
+            "couples",
+            "outside"
+        ]
     }
 ]

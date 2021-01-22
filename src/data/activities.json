@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "The Floor is Lava!",
+        "name": "The Floor is Lava",
         "description": "Gather your couch cushions, blankets and pillows, and try not to burn up alive.",
         "url": "https://www.parents.com/fun/activities/indoor/ways-to-play-floor-is-lava-game-at-home/",
         "image": "https://i.kym-cdn.com/photos/images/newsfeed/000/359/557/543.jpg",
@@ -37,7 +37,7 @@
     },
     {
         "id": 4,
-        "name": "Take a Hike!",
+        "name": "Take a Hike",
         "description": "Use AllTrails to find a great hike near you!",
         "url": "https://www.alltrails.com/",
         "image": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2019-8/couple-hiking-mountain-climbing-1296x728-header.jpg?w=1155&h=1528",
@@ -51,14 +51,13 @@
     },
     {
         "id": 5,
-        "name": "Adopt a Pet!",
+        "name": "Adopt a Pet",
         "description": "Really bored? And often? Help rescue a pet in need of a good home! You won't be bored, we promise!",
         "url": "https://www.adoptapet.com/",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFCyJt4CfbLaIvAJK1lX91LKS2tra9IpUjRQ&usqp=CAU",
         "alt": "Young puppy and kitten sitting in a field, looking incredibly adorable",
         "categories": [
             "family",
-            "projects",
             "solo",
             "couples"
         ]
@@ -86,8 +85,7 @@
         "alt": "New York Times best chocolate chip cookies stacked on a plate",
         "categories": [
             "food",
-            "family",
-            "couples"
+            "family"
         ]
     },
     {
@@ -98,9 +96,7 @@
         "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/indoor-scavenger-hunt-wide-750-x-500-1586175956.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=768:*",
         "alt": "Around the house scavenger hunt list with about 40 items to check off",
         "categories": [
-            "family",
-            "inside",
-            "outside"
+            "family"
         ]
     },
     {
@@ -116,7 +112,7 @@
     },
     {
         "id": 10,
-        "name": "Go For a Run!",
+        "name": "Go For a Run",
         "description": "Everyone knows running is good for you. But it can get kind of boring. Try these different running workouts with both beginner and advanced samples.",
         "url": "https://www.nomeatathlete.com/running-workouts/",
         "image": "https://www.nomeatathlete.com/wp-content/uploads/2016/11/running-workouts-2-1024x592.jpg",
@@ -147,8 +143,7 @@
         "alt": "A beautiful sunset on the ocean horizon with sandy beach and gentle waves in the foreground",
         "categories": [
             "wellness",
-            "solo",
-            "couples"
+            "solo"
         ]
     },
     {
@@ -171,9 +166,7 @@
         "image": "https://www.justmeasuringup.com/wp-content/uploads/2018/04/028-Dresser-Redo.jpg",
         "alt": "A refurbished dresser, finished slate blue milk paint and staged with flowers, old books and photographs",
         "categories": [
-            "projects",
-            "solo",
-            "couples"
+            "projects"
         ]
     },
     {
@@ -197,8 +190,119 @@
         "alt": "A plant in a pot with a newly propagated section being watered",
         "categories": [
             "projects",
-            "solo",
+            "outside"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Plant a Tree",
+        "description": "It's good for the planet and it makes your yard look nice. Sounds like a win-win! Take your newly acquired tree planting skills to the next level and discover where you can plant trees in your community. Save the planet even more!",
+        "url": "https://www.growingagreenerworld.com/how-to-plant-a-tree/",
+        "image": "https://www.growingagreenerworld.com/wp-content/uploads/2017/04/PlantingDepth-LR.jpg",
+        "alt": "A young tree being planted into a newly dug hole in the ground",
+        "categories": [
+            "projects",
+            "outside",
+            "family",
+            "solo"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Shadow Art",
+        "description": "An ingenious craft for kids (and grownups who appreciate playing like children): use shadows of everyday objects to create awesome art. So smart!",
+        "url": "https://kidsactivitiesblog.com/137133/how-to-make-shadow-art-with-kids/",
+        "image": "https://kidsactivitiesblog--o--com.follycdn.com/wp-content/uploads/2020/03/dinosaur-shadow-art-610x712.png",
+        "alt": "A child tracing the shadows of toy dinosaurs on a large roll of paper",
+        "categories": [
+            "family",
+            "crafts"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Organize Your Fridge",
+        "description": "Do you know what's in that tupperware hiding in the back of your fridge? Do you even remember the last time you cleaned out that thing? This handy guide helps you clean up and organize your refrigerator like a pro!",
+        "url": "https://www.simplyss.com/blog/how-to-organize-your-refrigerator-in-12-simple-steps/",
+        "image": "https://www.simplyss.com/blog/wp-content/uploads/2018/07/sss-fridge-org-after.jpg",
+        "alt": "Refrigerator with highly organized items and very clean shelves",
+        "categories": [
+            "food",
+            "projects"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Clean Out Your Closet",
+        "description": "We've all seen Marie Kondo memes. Whether or not you need more joy in your life, a clean, organized closet is a great idea. Just think of all the stuff you can donate. This article gives you 11 practical ideas to improve your least favorite room.",
+        "url": "https://www.minimalismmadesimple.com/home/clean-out-closet/",
+        "image": "https://www.minimalismmadesimple.com/wp-content/uploads/2020/12/wardrobe-1.png",
+        "alt": "A highly organized and clean lookig closet, curated and minimally styled",
+        "categories": [
+            "projects",
+            "inside"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Bicycle Date Ideas",
+        "description": "Need to get out, but don't want to leave your true love? Take a romantic bike ride with your significant other! This article has 10 unique ideas to explore while riding your bikes. ",
+        "url": "https://momentummag.com/ten-fun-bicycle-date-ideas/",
+        "image": "https://momentummag.com/wp-content/uploads/2015/06/Wellness_Bike_Date_Thomas_Rousing.jpg",
+        "alt": "A couple riding their bikes alongside a metropolitan river with the sun reflecting off the water",
+        "categories": [
+            "couples",
+            "outside"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Build Your Own Board Game",
+        "description": "Do you ever get tired of playing the same games over and over? Why not make your own! You could start totally from scratch, or modify a family favorite. Check out these ideas on how to get started making your own game!",
+        "url": "https://www.instructables.com/Build-your-Own-Board-Game/",
+        "image": "https://content.instructables.com/ORIG/FMN/GKS2/I301KOV3/FMNGKS2I301KOV3.jpg?auto=webp&frame=1&width=933&height=1024&fit=bounds&md=ee5a315a26c88dd0abdc92c20871158a",
+        "alt": "An assortment of materials needed to design and create a board game, including tablet, game pieces and paper",
+        "categories": [
+            "crafts",
+            "family"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Stream A Live Concert",
+        "description": "Do you miss attending live concerts as much as I do? Thankfully Songkick keeps track of hundreds of live streams, many of which are free, and most streams cost around $20. Enjoy a live concert in the comfort of your own home, and turn it up as loud as you want!",
+        "url": "https://www.songkick.com/live-stream-concerts",
+        "image": "https://assets.sk-static.com/images/nw/components/live-streams-brief/live-streams-hero-image.png",
+        "alt": "Various screen shots of musicians performing live in a recorded studio setting for live streaming",
+        "categories": [
+            "couples",
             "inside",
+            "solo"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Go Stargazing",
+        "description": "They're always there, but when is the last time you stopped and watched the stars? Stargazing can be an amazing experience, on your own, with a loved one, or your whole family. Check out these 10 free astronomny apps that will elevate stargazing to a whole new level!",
+        "url": "https://www.hongkiat.com/blog/stargazing-apps/",
+        "image": "https://res.cloudinary.com/simpleview/image/upload/v1565812489/clients/texas/Stargaze_MatagordaRV_website_only_LCRA_53213379-f227-48dd-a2ff-710f7087b737.jpg",
+        "alt": "A couple, wrapped in blankets, sitting in chairs on a beach, gazing at the starry night sky overhead",
+        "categories": [
+            "outside",
+            "couples",
+            "family"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Water Gun Fight",
+        "description": "Grab some water guns at your local dollar store and have an epic water gun fight. Don't forget the water balloons too. Have a blast while you beat the heat. Make sure to check out these other water gun game ideas!",
+        "url": "https://www.playpartyplan.com/outdoor-water-games/",
+        "image": "https://cdn.lifehack.org/wp-content/uploads/2014/10/07031039/cheap-and-fun-date-ideas-watergun.jpg",
+        "alt": "A man and woman shooting each other with water guns in a park",
+        "categories": [
+            "family",
+            "couples",
             "outside"
         ]
     }
