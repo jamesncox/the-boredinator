@@ -62,5 +62,18 @@
             "inside",
             "solo"
         ]
+    },
+    {
+        "id": 6,
+        "name": "Water Gun Fight",
+        "description": "Grab some water guns at your local dollar store and have an epic water gun fight. Don't forget the water balloons too! Have a blast while you beat the heat. Check out these water gun games ideas too.",
+        "url": "https://www.playpartyplan.com/outdoor-water-games/",
+        "image": "https://cdn.lifehack.org/wp-content/uploads/2014/10/07031039/cheap-and-fun-date-ideas-watergun.jpg",
+        "alt": "A man and woman shooting each other with water guns in a park",
+        "categories": [
+            "family",
+            "couples",
+            "outside"
+        ]
     }
 ]
