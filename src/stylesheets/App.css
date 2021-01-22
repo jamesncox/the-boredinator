@@ -97,6 +97,7 @@ ol {
   padding: .50rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  border-color: rgb(25, 85, 134);
 }
 
 .take-me-there {
@@ -106,6 +107,7 @@ ol {
   padding: .5rem;
   cursor: pointer;
   justify-self: center;
+  border-color: rgb(25, 85, 134);
 }
 
 .clear-button {
@@ -116,6 +118,7 @@ ol {
   padding: .5rem;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
+  border-color: rgb(25, 85, 134);
 }
 
 .index-button {
@@ -126,6 +129,7 @@ ol {
   padding: .5rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
+  border-color: rgb(25, 85, 134);
 }
 
 .home-button {
@@ -136,6 +140,7 @@ ol {
   padding: .50rem;
   margin-top: 2rem;
   margin-bottom: .5rem;
+  border-color: rgb(25, 85, 134);
 }
 
 /* card display */
