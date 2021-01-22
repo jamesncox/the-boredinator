@@ -24,5 +24,16 @@
             "solo",
             "wellness"
         ]
+    },
+    {
+        "id": 3,
+        "name": "Volunteer At An Animal Shelter",
+        "description": "Volunteering is a great way to help others in need and get out of the house for a while! Make a difference and have fun doing it. The best part about volunteering at an animal shelter is seeing all the cute pups and kittens!",
+        "url": "https://dogtime.com/how-to/61643-volunteer-animal-shelter",
+        "image": "https://www.dogtime.com/assets/uploads/2018/02/how-to-volunteer-animal-shelter-4-720x407.jpg",
+        "alt": "A young dog inside an animal shelter kennel, on a leash being readied to go for a walk",
+        "categories": [
+            "solo"
+        ]
     }
 ]
