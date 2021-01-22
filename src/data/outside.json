@@ -12,5 +12,18 @@
             "couples",
             "family"
         ]
+    },
+    {
+        "id": 2,
+        "name": "Go Stargazing",
+        "description": "They're always there, but when is the last time you stopped and watched the night sky? Stargazing can be an amazing experience. Check out these 10 free astronomny apps that will elevate stargazing to a whole new level!",
+        "url": "https://www.hongkiat.com/blog/stargazing-apps/",
+        "image": "https://res.cloudinary.com/simpleview/image/upload/v1565812489/clients/texas/Stargaze_MatagordaRV_website_only_LCRA_53213379-f227-48dd-a2ff-710f7087b737.jpg",
+        "alt": "A couple, wrapped in blankets, sitting in chairs on a beach, gazing at the starry night sky overhead",
+        "categories": [
+            "outside",
+            "couples",
+            "family"
+        ]
     }
 ]
