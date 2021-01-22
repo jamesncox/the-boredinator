@@ -7,20 +7,8 @@ import {
 import './stylesheets/App.css';
 import './stylesheets/responsive.css';
 import './stylesheets/categories.css'
-// import './stylesheets/light-dark-theme.css'
 import Title from './components/pageFormat/Title.js'
 import Home from './components/pageFormat/Home'
-<<<<<<< HEAD
-// import ThemeSwitcher from './components/pageFormat/ThemeSwitcher'
-
-function App() {
-  return (
-    <div className="App">
-      {/* <ThemeSwitcher /> */}
-      <Title />
-      <Home />
-    </div>
-=======
 import IndexPage from './components/pageFormat/IndexPage'
 
 function App() {
@@ -38,7 +26,6 @@ function App() {
         </Switch>
       </div>
     </Router>
->>>>>>> main
   );
 }
 
