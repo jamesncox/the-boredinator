@@ -316,5 +316,17 @@
         "categories": [
             "solo"
         ]
+    },
+    {
+        "id": 27,
+        "name": "Start An Herb Garden",
+        "description": "New to gardening? Herbs are a fun and easy way to hone your green thumb. Check out this article on getting started with your own herb garden. The best part? That satisfying feeling of cooking with something you grew yourself!",
+        "url": "https://bonnieplants.com/gardening/how-to-grow-an-herb-garden/",
+        "image": "https://gardenerspath.com/wp-content/uploads/2020/04/Herbs-Growing-in-Raised-Beds.jpg",
+        "alt": "An outdoor garden filled with planter boxes featuring a myriad of herbs and plants",
+        "categories": [
+            "projects",
+            "crafts"
+        ]
     }
 ]
