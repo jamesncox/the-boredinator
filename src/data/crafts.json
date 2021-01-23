@@ -34,5 +34,16 @@
             "crafts",
             "family"
         ]
+    },
+    {
+        "id": 4,
+        "name": "Polymer Clay Planters",
+        "description": "",
+        "url": "https://www.thesprucecrafts.com/diy-seven-super-pretty-succulent-planters-3017397",
+        "image": "https://www.thesprucecrafts.com/thmb/wO0EOH-tL9jYkCGCZlbQBh-s_hw=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-916955034-5c4cfb7146e0fb00014a2ba3.jpg",
+        "alt": "",
+        "categories": [
+            ""
+        ]
     }
 ]
