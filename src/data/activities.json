@@ -340,5 +340,17 @@
             "food",
             "couples"
         ]
+    },
+    {
+        "id": 29,
+        "name": "Paint A Flower Pot",
+        "description": "A fun and easy craft to turn those boring old terracotta pots into unique works of art. This step by step guide details everything you need to make your garden pop!",
+        "url": "https://www.projectswithkids.com/diy-painted-flower-pots-kids/",
+        "image": "https://www.projectswithkids.com/wp-content/uploads/2019/04/painted-pots-feature-copy.jpg",
+        "alt": "Two terracotta flower pots that have been painted bright colors and stenciled phrases, let it grow and don't stop be-leaf-ing",
+        "categories": [
+            "crafts",
+            "family"
+        ]
     }
 ]
