@@ -12,7 +12,7 @@ function RandomActivity(props) {
 
     return (
         <button
-            className="random-activity"
+            className="random-activity-button"
             onClick={e => handleClick(e)}
         >
             Show Me A Random Activity

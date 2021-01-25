@@ -10,11 +10,12 @@ ol {
   margin-left: 1rem;
 }
 
-.light-theme {
+:root {
   --font-color: black;
   --background-color: white;
   --button-font-color: rgb(25, 85, 134);
   --button-outline-color: rgb(25, 85, 134);
+  --button-background-color: rgb(25, 85, 134);
   --grid-color-full: rgba(127, 223, 252);
   --grid-color-mid: rgba(127, 223, 252, .5);
   --grid-color-light: rgba(127, 223, 252, .1);
@@ -90,7 +91,7 @@ ol {
 }
 
 /* buttons */
-.random-activity {
+.random-activity-button {
   font-family: 'Exo 2', sans-serif;
   background-color: rgb(25, 85, 134);
   color: white;

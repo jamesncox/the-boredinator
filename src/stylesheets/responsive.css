@@ -1,12 +1,10 @@
 @media only screen and (min-width: 400px) {
-
   ol {
     margin-left: 1.5rem;
   }
 }
 
 @media only screen and (min-width: 500px) {
-
   ol {
     margin-left: 2rem;
   }
@@ -24,7 +22,6 @@
 }
 
 @media only screen and (min-width: 900px) {
-
   ol {
     margin-left: 3rem;
   }
