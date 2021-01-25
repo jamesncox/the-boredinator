@@ -144,6 +144,19 @@ ol {
   border-color: rgb(25, 85, 134);
 }
 
+.toggle-theme-button {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  background-color: white;
+  color: rgb(25, 85, 134);
+  padding: .5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border-color: rgb(25, 85, 134);
+  top: 5px;
+  right: 5px;
+}
+
 /* card display */
 .card-wrapper {
   display: flex;

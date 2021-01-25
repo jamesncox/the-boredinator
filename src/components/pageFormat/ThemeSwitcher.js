@@ -8,6 +8,7 @@ function ThemeSwitcher(props) {
 
     return (
         <button
+            className="toggle-theme-button"
             onClick={e => handleClick(e)}
         >
             Toggle Theme
