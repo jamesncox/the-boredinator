@@ -1,5 +1,5 @@
 import React from 'react'
-import ThemeSwitcher from './ThemeSwitcher'
+import Toggle from './Toggle'
 
 export default function Title() {
     return (
@@ -10,7 +10,7 @@ export default function Title() {
             <p className="subtitle">
                 Less Screens. New Ideas. More Fun!
             </p>
-            <ThemeSwitcher />
+            <Toggle />
         </>
     )
 }

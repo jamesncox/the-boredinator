@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ThemeSwitcher(props) {
+function Toggle(props) {
 
     const handleClick = () => {
 
@@ -15,4 +15,4 @@ function ThemeSwitcher(props) {
 
 }
 
-export default ThemeSwitcher
+export default Toggle
