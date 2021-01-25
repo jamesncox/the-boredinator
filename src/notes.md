@@ -1,5 +1,11 @@
 ## TO DO
 
+[] New Name ideas
+    - NEVER BORED
+    - EXPLORE MORE
+    - TRYDEA
+    - EXPLOREDIA
+
 [] Create light/dark theme switch.
 
 [] Turn the index into collapsible/expandable components?

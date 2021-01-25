@@ -4,7 +4,7 @@ export default function Title() {
     return (
         <>
             <h1 className="title">
-                The Boredinator
+                THE BOREDINATOR
             </h1>
             <p className="subtitle">
                 Less Screens. New Ideas. More Fun!
