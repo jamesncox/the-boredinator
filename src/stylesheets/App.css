@@ -26,9 +26,9 @@ ol {
   --background-color: rgb(25, 85, 134);
   --button-font-color: white;
   --button-outline-color: white;
-  --grid-color-full: rgb(141, 1, 255);
-  --grid-color-mid: rgb(177, 81, 255);
-  --grid-color-light: rgb(203, 140, 255);
+  --grid-color-full: rgb(177, 81, 255);
+  --grid-color-mid: rgb(203, 140, 255);
+  --grid-color-light: rgb(230, 199, 255);
 }
 
 .App {
@@ -147,14 +147,13 @@ ol {
 .toggle-theme-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
+  font-size: .75rem;
   background-color: white;
   color: rgb(25, 85, 134);
   padding: .5rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: -1rem;
   border-color: rgb(25, 85, 134);
-  top: 5px;
-  right: 5px;
+  /* align-self: flex-end; */
 }
 
 /* card display */

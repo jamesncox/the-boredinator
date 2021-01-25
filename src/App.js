@@ -7,6 +7,7 @@ import {
 import './stylesheets/App.css';
 import './stylesheets/responsive.css';
 import './stylesheets/categories.css'
+import './stylesheets/toggle.css'
 import Title from './components/pageFormat/Title.js'
 import Home from './components/pageFormat/Home'
 import IndexPage from './components/pageFormat/IndexPage'

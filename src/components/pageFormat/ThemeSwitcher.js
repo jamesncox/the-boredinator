@@ -7,12 +7,10 @@ function ThemeSwitcher(props) {
     }
 
     return (
-        <button
-            className="toggle-theme-button"
-            onClick={e => handleClick(e)}
-        >
-            Toggle Theme
-        </button>
+        <div className="toggle">
+            <input type="checkbox" id="toggle" />
+            <label htmlFor="toggle"></label>
+        </div>
     )
 
 }
