@@ -12,7 +12,7 @@ function Outside(props) {
 
     return (
         <button
-            className="outside-button"
+            className="medium-button"
             onClick={e => handleClick(e)}
         >
             Outside

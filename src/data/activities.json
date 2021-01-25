@@ -305,5 +305,52 @@
             "couples",
             "outside"
         ]
+    },
+    {
+        "id": 26,
+        "name": "Volunteer At An Animal Shelter",
+        "description": "Volunteering is a great way to help others and get out of the house for a while. Make a difference and have fun doing it. The best part about volunteering at an animal shelter is seeing all the adorable pups and kittens!",
+        "url": "https://dogtime.com/how-to/61643-volunteer-animal-shelter",
+        "image": "https://www.dogtime.com/assets/uploads/2018/02/how-to-volunteer-animal-shelter-4-720x407.jpg",
+        "alt": "A young dog inside an animal shelter kennel, on a leash being readied to go for a walk",
+        "categories": [
+            "solo"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Start An Herb Garden",
+        "description": "New to gardening? Herbs are a fun and easy way to hone your green thumb. Check out this article on getting started with your own herb garden. The best part? That satisfying feeling of cooking with something you grew yourself!",
+        "url": "https://bonnieplants.com/gardening/how-to-grow-an-herb-garden/",
+        "image": "https://gardenerspath.com/wp-content/uploads/2020/04/Herbs-Growing-in-Raised-Beds.jpg",
+        "alt": "An outdoor garden filled with planter boxes featuring a myriad of herbs and plants",
+        "categories": [
+            "projects",
+            "crafts"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Curate A Charcuterie Board",
+        "description": "There is something highly satisfying about selecting your favorite cheeses, spreads, jams, meats and whatever else you love, assembling it all together and then chowing down. Check out this post featuring 20 charcuterie board ideas!",
+        "url": "https://www.purewow.com/food/charcuterie-board-recipes",
+        "image": "https://purewows3.imgix.net/images/articles/2020_12/charcuterie-board-ideas_how-to-make-a-charcuterie-board.jpg?auto=format,compress&cs=strip",
+        "alt": "Someone preparing a charcuterie board with a variety of cheeses, sliced meats, pickles and olives",
+        "categories": [
+            "food",
+            "couples"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Paint A Flower Pot",
+        "description": "A fun and easy craft to turn those boring old terracotta pots into unique works of art. This step by step guide details everything you need to make your garden pop!",
+        "url": "https://www.projectswithkids.com/diy-painted-flower-pots-kids/",
+        "image": "https://www.projectswithkids.com/wp-content/uploads/2019/04/painted-pots-feature-copy.jpg",
+        "alt": "Two terracotta flower pots that have been painted bright colors and stenciled phrases, let it grow and don't stop be-leaf-ing",
+        "categories": [
+            "crafts",
+            "family"
+        ]
     }
 ]

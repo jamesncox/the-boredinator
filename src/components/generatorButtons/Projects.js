@@ -12,7 +12,7 @@ function Projects(props) {
 
     return (
         <button
-            className="projects-button"
+            className="dark-button"
             onClick={e => handleClick(e)}
         >
             Projects

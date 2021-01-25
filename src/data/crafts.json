@@ -22,5 +22,28 @@
             "crafts",
             "family"
         ]
+    },
+    {
+        "id": 3,
+        "name": "Paint A Flower Pot",
+        "description": "A fun and easy craft to turn those boring old terracotta pots into unique works of art. This step by step guide details everything you need to make your garden pop!",
+        "url": "https://www.projectswithkids.com/diy-painted-flower-pots-kids/",
+        "image": "https://www.projectswithkids.com/wp-content/uploads/2019/04/painted-pots-feature-copy.jpg",
+        "alt": "Two terracotta flower pots that have been painted bright colors and stenciled phrases, let it grow and don't stop be-leaf-ing",
+        "categories": [
+            "crafts",
+            "family"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Polymer Clay Planters",
+        "description": "",
+        "url": "https://www.thesprucecrafts.com/diy-seven-super-pretty-succulent-planters-3017397",
+        "image": "https://www.thesprucecrafts.com/thmb/wO0EOH-tL9jYkCGCZlbQBh-s_hw=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-916955034-5c4cfb7146e0fb00014a2ba3.jpg",
+        "alt": "",
+        "categories": [
+            ""
+        ]
     }
 ]

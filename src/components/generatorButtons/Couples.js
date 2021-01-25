@@ -12,7 +12,7 @@ function Couples(props) {
 
     return (
         <button
-            className="couples-button"
+            className="light-button"
             onClick={e => handleClick(e)}
         >
             Couples

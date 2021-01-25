@@ -12,7 +12,7 @@ function Family(props) {
 
     return (
         <button
-            className="family-button"
+            className="light-button"
             onClick={e => handleClick(e)}
         >
             Family

@@ -37,5 +37,17 @@
             "food",
             "projects"
         ]
+    },
+    {
+        "id": 4,
+        "name": "Curate A Charcuterie Board",
+        "description": "There is something highly satisfying about selecting your favorite cheeses, spreads, jams, meats and whatever else you love, assembling it all together and then chowing down. Check out this post featuring 20 charcuterie board ideas!",
+        "url": "https://www.purewow.com/food/charcuterie-board-recipes",
+        "image": "https://purewows3.imgix.net/images/articles/2020_12/charcuterie-board-ideas_how-to-make-a-charcuterie-board.jpg?auto=format,compress&cs=strip",
+        "alt": "Someone preparing a charcuterie board with a variety of cheeses, sliced meats, pickles and olives",
+        "categories": [
+            "food",
+            "couples"
+        ]
     }
 ]

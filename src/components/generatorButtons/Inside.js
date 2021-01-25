@@ -12,7 +12,7 @@ function Inside(props) {
 
     return (
         <button
-            className="inside-button"
+            className="medium-button"
             onClick={e => handleClick(e)}
         >
             Inside
