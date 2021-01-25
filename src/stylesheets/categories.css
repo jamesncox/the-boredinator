@@ -10,28 +10,6 @@
     border-color: rgb(25, 85, 134);
   }
   
-  /* .crafts-button {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: bold;
-    background-color: rgba(127, 223, 252, .1);
-    color: rgb(25, 85, 134);
-    flex: 0 0 32%;
-    height: 50px;
-    margin-bottom: 5px;
-    border-color: rgb(25, 85, 134);
-  }
-  
-  .family-button {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: bold;
-    background-color: rgba(127, 223, 252, .1);
-    color: rgb(25, 85, 134);
-    flex: 0 0 32%;
-    height: 50px;
-    margin-bottom: 5px;
-    border-color: rgb(25, 85, 134);
-  } */
-  
   .medium-button {
     font-family: 'Exo 2', sans-serif;
     font-weight: bold;
@@ -43,28 +21,6 @@
     border-color: rgb(25, 85, 134);
   }
   
-  /* .food-button {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: bold;
-    background-color: rgba(127, 223, 252, .5);
-    color: rgb(25, 85, 134);
-    flex: 0 0 32%;
-    height: 50px;
-    margin-bottom: 5px;
-    border-color: rgb(25, 85, 134);
-  }
-  
-  .inside-button {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: bold;
-    background-color: rgba(127, 223, 252, .5);
-    color: rgb(25, 85, 134);
-    flex: 0 0 32%;
-    height: 50px;
-    margin-bottom: 5px;
-    border-color: rgb(25, 85, 134);
-  } */
-  
   .dark-button {
     font-family: 'Exo 2', sans-serif;
     font-weight: bold;
@@ -75,25 +31,3 @@
     margin-bottom: 5px;
     border-color: rgb(25, 85, 134);
   }
-  
-  /* .projects-button {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: bold;
-    background-color: rgba(127, 223, 252);
-    color: rgb(25, 85, 134);
-    flex: 0 0 32%;
-    height: 50px;
-    margin-bottom: 5px;
-    border-color: rgb(25, 85, 134);
-  }
-  
-  .solo-button {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: bold;
-    background-color: rgba(127, 223, 252);
-    color: rgb(25, 85, 134);
-    flex: 0 0 32%;
-    height: 50px;
-    margin-bottom: 5px;
-    border-color: rgb(25, 85, 134);
-  } */
