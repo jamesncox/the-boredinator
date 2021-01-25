@@ -2,8 +2,16 @@ import React from 'react'
 
 function ThemeSwitcher(props) {
 
+    const handleClick = () => {
+
+    }
+
     return (
-        <div></div>
+        <button
+            onClick={e => handleClick(e)}
+        >
+            Toggle Theme
+        </button>
     )
 
 }
