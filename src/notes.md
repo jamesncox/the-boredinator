@@ -5,6 +5,7 @@
     - EXPLORE MORE
     - TRYDEA
     - EXPLOREDIA
+    - INDEX EXPLORE IDEA ENCYCLOPEDIA
 
 [] Create light/dark theme switch.
 
