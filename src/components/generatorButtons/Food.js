@@ -12,7 +12,7 @@ function Food(props) {
 
     return (
         <button
-            className="food-button"
+            className="medium-button"
             onClick={e => handleClick(e)}
         >
             Food

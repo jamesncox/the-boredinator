@@ -12,7 +12,7 @@ function Solo(props) {
 
     return (
         <button
-            className="solo-button"
+            className="dark-button"
             onClick={e => handleClick(e)}
         >
             Solo

@@ -12,7 +12,7 @@ function Wellness(props) {
 
     return (
         <button
-            className="wellness-button"
+            className="dark-button"
             onClick={e => handleClick(e)}
         >
             Wellness

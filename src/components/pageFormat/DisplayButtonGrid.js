@@ -25,12 +25,12 @@ function DisplayButtonGrid(props) {
                         <CouplesButton />
                         <CraftsButton />
                         <FamilyButton />
-                        <WellnessButton />
                         <FoodButton />
                         <InsideButton />
                         <OutsideButton />
                         <ProjectsButton />
                         <SoloButton />
+                        <WellnessButton />
                     </div>
                 </div>
                 <RandomActivityButton />
