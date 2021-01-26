@@ -1,6 +1,9 @@
 ## TO DO\
 
-[] Light/Dark theme is working, just need to DEBUG TOGGLE not persistin on page reload.
+[] Light/Dark theme is working, just need to DEBUG TOGGLE not persisting on page reload.
+    - I might have to rework the way I add/remove the CSS to the my toggle and have it persist even when page reloads
+    - Or figure out how to add checked = true/false to the toggle-switch ID
+
 
 [] New Name ideas
     - NEVER BORED
