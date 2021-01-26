@@ -131,7 +131,7 @@ body.dark {
 .activity-title {
   font-family: 'Bebas Neue', cursive;
   font-size: 1.65rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   color: var(--title-text);
 }
 
@@ -166,7 +166,7 @@ body.dark {
 }
 
 .category-grid-instructions {
-  margin-top: 3rem;
+  margin-top: 2rem;
   color: var(--title-text);
 }
 
