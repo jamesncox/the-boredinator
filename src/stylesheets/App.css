@@ -17,7 +17,8 @@ ol {
 
 :root {
   --black: black;
-  --white: white;
+  --white: rgb(255, 255, 255);
+  --off-white: rgb(218, 218, 218);
   --navy-blue: rgb(25, 85, 134);
   --full-blue: rgba(127, 223, 252);
   --medium-blue: rgba(127, 223, 252, .5);
@@ -33,7 +34,9 @@ ol {
 body.light {
   --background-color: var(--white);
   --title-text: var(--black);
-  --button-text: var(--navy-blue);
+  --dark-button-text: var(--white);
+  --light-button-color: var(--white);
+  --grid-button-text: var(--navy-blue);
   --index-text: var(--navy-blue);
   --description-text: var(--black);
   --row-one-color: var(--light-blue);
@@ -45,14 +48,18 @@ body.light {
 
 body.dark {
   --background-color: var(--navy-blue);
-  --title-text: var(--white);
-  --button-text: var(--dark-purple);
-  --index-text: var(--white);
-  --description-text: var(--white);
+  --title-text: var(--off-white);
+  --dark-button-text: var(--off-white);
+  --light-button-color: var(--off-white);
+  --grid-button-text: var(--dark-purple);
+  --index-text: var(--off-white);
+  --description-text: var(--off-white);
   --row-one-color: var(--light-purple);
   --row-two-color: var(--medium-purple);
   --row-three-color: var(--full-purple);
   --grid-button-border-color: var(--dark-purple);
+  --button-border-color: var(--off-white);
+  --light-button-color: var(--off-white);
   --box-shadow: var(--light-shadow);
 }
 
@@ -125,7 +132,7 @@ body.dark {
 .random-activity-button {
   font-family: 'Exo 2', sans-serif;
   background-color: rgb(25, 85, 134);
-  color: white;
+  color: var(--dark-button-text);
   padding: .50rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -135,7 +142,7 @@ body.dark {
 .take-me-there {
   font-family: 'Exo 2', sans-serif;
   background-color: rgb(25, 85, 134);
-  color: white;
+  color: var(--dark-button-text);
   padding: .5rem;
   cursor: pointer;
   justify-self: center;
@@ -145,7 +152,7 @@ body.dark {
 .clear-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: white;
+  background-color: var(--light-button-color);
   color: rgb(25, 85, 134);
   padding: .5rem;
   margin-top: 1.5rem;
@@ -156,7 +163,7 @@ body.dark {
 .index-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: white;
+  background-color: var(--light-button-color);
   color: rgb(25, 85, 134);
   padding: .5rem;
   margin-top: 1rem;
@@ -167,7 +174,7 @@ body.dark {
 .home-button {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
-  background-color: white;
+  background-color: var(--light-button-color);
   color: rgb(25, 85, 134);
   padding: .50rem;
   margin-top: 2rem;
