@@ -117,7 +117,7 @@ body.dark {
 .title {
   font-family: 'Bebas Neue', cursive;
   font-size: 3rem;
-  margin-top: 1rem;
+  margin-top: .25rem;
   color: var(--title-text);
 }
 
