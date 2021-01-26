@@ -27,7 +27,7 @@ function DisplayActivity(props) {
                             className="activity-image"
                         />
                         <div className="container">
-                            <p>{props.randomActivity[0].description}</p>
+                            <p className="description">{props.randomActivity[0].description}</p>
                             <form
                                 action={props.randomActivity[0].url}
                                 target="_blank"

@@ -35,10 +35,11 @@ body.light {
   --title-text: var(--black);
   --button-text: var(--navy-blue);
   --index-text: var(--navy-blue);
+  --description-text: var(--black);
   --row-one-color: var(--light-blue);
   --row-two-color: var(--medium-blue);
   --row-three-color: var(--full-blue);
-  --button-border-color: var(--navy-blue);
+  --grid-button-border-color: var(--navy-blue);
   --box-shadow: var(--black-shadow);
 }
 
@@ -47,10 +48,11 @@ body.dark {
   --title-text: var(--white);
   --button-text: var(--dark-purple);
   --index-text: var(--white);
+  --description-text: var(--white);
   --row-one-color: var(--light-purple);
   --row-two-color: var(--medium-purple);
   --row-three-color: var(--full-purple);
-  --button-border-color: var(--dark-purple);
+  --grid-button-border-color: var(--dark-purple);
   --box-shadow: var(--light-shadow);
 }
 
@@ -201,6 +203,10 @@ body.dark {
 
 .container {
   padding: 15px;
+}
+
+.description {
+  color: var(--description-text);
 }
 
 /* image */
