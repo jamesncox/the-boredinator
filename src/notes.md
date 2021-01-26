@@ -1,4 +1,6 @@
-## TO DO
+## TO DO\
+
+[] Light/Dark theme is working, just need to DEBUG TOGGLE not persistin on page reload.
 
 [] New Name ideas
     - NEVER BORED
@@ -6,8 +8,6 @@
     - TRYDEA
     - EXPLOREDIA
     - INDEX EXPLORE IDEA ENCYCLOPEDIA
-
-[] Create light/dark theme switch.
 
 [] Turn the index into collapsible/expandable components?
 
@@ -26,3 +26,5 @@
 [x] Re-design the grid of category buttons. They just don't fit the theme.
 
 [x] Create an index/table of contents for ALL the activities, organized by category and probably alphabetized.
+
+[x] Create light/dark theme switch.
