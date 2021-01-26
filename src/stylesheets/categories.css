@@ -2,8 +2,8 @@
 .light-button {
     font-family: 'Exo 2', sans-serif;
     font-weight: bold;
-    background-color: rgba(127, 223, 252, .1);
-    color: rgb(25, 85, 134);
+    background-color: var(--row-one-color);
+    color: var(--button-text);
     flex: 0 0 32%;
     height: 50px;
     margin-bottom: 5px;
@@ -13,8 +13,8 @@
   .medium-button {
     font-family: 'Exo 2', sans-serif;
     font-weight: bold;
-    background-color: rgba(127, 223, 252, .5);
-    color: rgb(25, 85, 134);
+    background-color: var(--row-two-color);
+    color: var(--button-text);
     flex: 0 0 32%;
     height: 50px;
     margin-bottom: 5px;
@@ -24,8 +24,8 @@
   .dark-button {
     font-family: 'Exo 2', sans-serif;
     font-weight: bold;
-    background-color: rgba(127, 223, 252);
-    color: rgb(25, 85, 134);
+    background-color: var(--row-three-color);
+    color: var(--button-text);
     flex: 0 0 32%;
     height: 50px;
     margin-bottom: 5px;

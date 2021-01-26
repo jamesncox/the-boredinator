@@ -17,9 +17,9 @@ ol {
   --full-blue: rgba(127, 223, 252);
   --medium-blue: rgba(127, 223, 252, .5);
   --light-blue: rgba(127, 223, 252, .1);
-  --full-purple: rgb(177, 81, 255);
-  --medium-purple: rgb(203, 140, 255);
-  --light-purple: rgb(230, 199, 255);
+  --full-purple: rgb(172, 71, 255);
+  --medium-purple: rgb(194, 125, 250);
+  --light-purple: rgb(220, 177, 255);
 }
 
 body.light {
@@ -49,7 +49,7 @@ body.dark {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--background-color)
+  background-color: var(--background-color);
 }
 
 /* headers / titles */
