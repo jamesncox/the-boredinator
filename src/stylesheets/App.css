@@ -22,34 +22,34 @@ ol {
   --light-purple: rgb(230, 199, 255);
 }
 
-.body {
-  font-family: 'Exo 2', sans-serif;
-  background: var(--background-color)
-  
-}
-
 body.light {
   --background-color: var(--white);
   --title-text: var(--black);
-  --text-black: var(--black);
-  --text-navy-blue: var(--navy-blue);
+  --button-text: var(--navy-blue);
+  --index-text: var(--navy-blue);
   --row-one-color: var(--light-blue);
   --row-two-color: var(--medium-blue);
   --row-three-color: var(--full-blue);
+  --button-border-color: var(--navy-blue)
 }
 
 body.dark {
   --background-color: var(--navy-blue);
   --title-text: var(--white);
+  --button-text: var(--white);
+  --index-text: var(--white);
   --row-one-color: var(--light-purple);
   --row-two-color: var(--medium-purple);
-  --row-three-color: var(--dark-purple);
+  --row-three-color: var(--full-purple);
+  --button-border-color: var(--white)
 }
 
 .App {
+  font-family: 'Exo 2', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--background-color)
 }
 
 /* headers / titles */
@@ -64,24 +64,27 @@ body.dark {
   font-family: 'Hachi Maru Pop', cursive;
   font-size: .75rem;
   margin-top: -2.5rem;
+  color: var(--title-text);
 }
 
 .activity-title {
   font-family: 'Bebas Neue', cursive;
   font-size: 1.65rem;
   margin-top: 3rem;
+  color: var(--title-text);
 }
 
 .index-title {
   margin-top: 2rem;
   font-size: 2rem;
   margin-bottom: -.5rem;
+  color: var(--title-text);
 }
 
 .index-category-title {
   font-family: 'Bebas Neue', cursive;
   font-size: 1.25rem;
-  /* margin-top: 3rem; */
+  color: var(--title-text);
 }
 
 /* category button grid */
@@ -103,6 +106,7 @@ body.dark {
 
 .category-grid-instructions {
   margin-top: 3rem;
+  color: var(--title-text);
 }
 
 /* buttons */
@@ -113,7 +117,7 @@ body.dark {
   padding: .50rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border-color: rgb(25, 85, 134);
+  border-color: var(--button-border-color);
 }
 
 .take-me-there {
@@ -123,7 +127,7 @@ body.dark {
   padding: .5rem;
   cursor: pointer;
   justify-self: center;
-  border-color: rgb(25, 85, 134);
+  border-color: var(--button-border-color);
 }
 
 .clear-button {
@@ -134,7 +138,7 @@ body.dark {
   padding: .5rem;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
-  border-color: rgb(25, 85, 134);
+  border-color: var(--button-border-color);
 }
 
 .index-button {
@@ -145,7 +149,7 @@ body.dark {
   padding: .5rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  border-color: rgb(25, 85, 134);
+  border-color: var(--button-border-color);
 }
 
 .home-button {
@@ -156,7 +160,7 @@ body.dark {
   padding: .50rem;
   margin-top: 2rem;
   margin-bottom: .5rem;
-  border-color: rgb(25, 85, 134);
+  border-color: var(--button-border-color);
 }
 
 .toggle-theme-button {
@@ -167,7 +171,7 @@ body.dark {
   color: rgb(25, 85, 134);
   padding: .5rem;
   margin-bottom: -1rem;
-  border-color: rgb(25, 85, 134);
+  border-color: var(--button-border-color);
   /* align-self: flex-end; */
 }
 
@@ -205,6 +209,6 @@ body.dark {
 
 .index-list-items {
   font-weight: bold;
-  color:  rgb(25, 85, 134);
+  color:  var(--index-text);
   cursor: pointer;
 }
