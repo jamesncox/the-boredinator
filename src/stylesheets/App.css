@@ -18,13 +18,14 @@ ol {
 :root {
   --black: black;
   --white: rgb(255, 255, 255);
-  --off-white: rgb(218, 218, 218);
+  --off-white: rgb(240, 240, 240);
   --navy-blue: rgb(25, 85, 134);
+  --slate-blue: rgb(38, 57, 73);
   --full-blue: rgba(127, 223, 252);
   --medium-blue: rgba(127, 223, 252, .5);
   --light-blue: rgba(127, 223, 252, .1);
-  --full-purple: rgb(192, 115, 255);
-  --medium-purple: rgb(210, 160, 255);
+  --full-purple: rgb(199, 130, 255);
+  --medium-purple: rgb(210, 165, 255);
   --light-purple: rgb(229, 205, 255);
   --dark-purple: rgb(65, 0, 117);
   --black-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -35,6 +36,7 @@ body.light {
   --background-color: var(--white);
   --title-text: var(--black);
   --dark-button-text: var(--white);
+  --dark-button-background-color: var(--navy-blue);
   --light-button-color: var(--white);
   --grid-button-text: var(--navy-blue);
   --index-text: var(--navy-blue);
@@ -47,9 +49,10 @@ body.light {
 }
 
 body.dark {
-  --background-color: var(--navy-blue);
+  --background-color: var(--slate-blue);
   --title-text: var(--off-white);
   --dark-button-text: var(--off-white);
+  --dark-button-background-color: var(--slate-blue);
   --light-button-color: var(--off-white);
   --grid-button-text: var(--dark-purple);
   --index-text: var(--off-white);
@@ -131,7 +134,7 @@ body.dark {
 /* buttons */
 .random-activity-button {
   font-family: 'Exo 2', sans-serif;
-  background-color: rgb(25, 85, 134);
+  background-color: var(--dark-button-background-color);
   color: var(--dark-button-text);
   padding: .50rem;
   margin-top: 1rem;
@@ -141,7 +144,7 @@ body.dark {
 
 .take-me-there {
   font-family: 'Exo 2', sans-serif;
-  background-color: rgb(25, 85, 134);
+  background-color: var(--dark-button-background-color);
   color: var(--dark-button-text);
   padding: .5rem;
   cursor: pointer;
