@@ -4,6 +4,7 @@
 
 body {
   background-color: var(--background-color);
+  /* transition: background-color 0.3s ease-in-out, color 0.6s ease-in-out; */
 }
 
 button {
@@ -21,9 +22,10 @@ ol {
   --full-blue: rgba(127, 223, 252);
   --medium-blue: rgba(127, 223, 252, .5);
   --light-blue: rgba(127, 223, 252, .1);
-  --full-purple: rgb(172, 71, 255);
-  --medium-purple: rgb(194, 125, 250);
-  --light-purple: rgb(220, 177, 255);
+  --full-purple: rgb(180, 90, 253);
+  --medium-purple: rgb(202, 142, 252);
+  --light-purple: rgb(224, 187, 255);
+  --dark-purple: rgb(65, 0, 117);
 }
 
 body.light {
@@ -40,12 +42,12 @@ body.light {
 body.dark {
   --background-color: var(--navy-blue);
   --title-text: var(--white);
-  --button-text: var(--white);
+  --button-text: var(--dark-purple);
   --index-text: var(--white);
   --row-one-color: var(--light-purple);
   --row-two-color: var(--medium-purple);
   --row-three-color: var(--full-purple);
-  --button-border-color: var(--white)
+  --button-border-color: var(--dark-purple)
 }
 
 .App {

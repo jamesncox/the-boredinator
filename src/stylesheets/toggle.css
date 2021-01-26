@@ -3,8 +3,8 @@
 }
 
 .toggle label {
-	background-color: rgba(127, 223, 252, .5);
-	border: 2px solid rgb(25, 85, 134);
+	background-color: var(--light-blue);
+	border: 2px solid var(--navy-blue);
 	border-radius: 1rem;
 	cursor: pointer;
 	display: inline-block;
@@ -15,7 +15,7 @@
 }
 
 .toggle label::after {
-	background-color: rgb(25, 85, 134);
+	background-color: var(--navy-blue);
 	border-radius: 50%;
 	content: ' ';
 	cursor: pointer;
@@ -29,11 +29,11 @@
 }
 
 .toggle input[type=checkbox]:checked ~ label {
-	background-color:rgb(230, 199, 255);
-	border-color: rgb(177, 81, 255);
+	background-color:var(--light-purple);
+	border-color: var(--full-purple);
 }
 
 .toggle input[type=checkbox]:checked ~ label::after {
-	background-color: rgb(177, 81, 255);
+	background-color: var(--full-purple);
 	transform: translateX(1rem);
 }

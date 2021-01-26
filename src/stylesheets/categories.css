@@ -7,7 +7,7 @@
     flex: 0 0 32%;
     height: 50px;
     margin-bottom: 5px;
-    border-color: rgb(25, 85, 134);
+    border-color: var(--button-border-color);
   }
   
   .medium-button {
@@ -18,7 +18,7 @@
     flex: 0 0 32%;
     height: 50px;
     margin-bottom: 5px;
-    border-color: rgb(25, 85, 134);
+    border-color: var(--button-border-color);
   }
   
   .dark-button {
@@ -29,5 +29,5 @@
     flex: 0 0 32%;
     height: 50px;
     margin-bottom: 5px;
-    border-color: rgb(25, 85, 134);
+    border-color: var(--button-border-color);
   }
