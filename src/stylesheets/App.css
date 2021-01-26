@@ -11,31 +11,45 @@ ol {
 }
 
 :root {
-  --font-color: black;
-  --background-color: white;
-  --button-font-color: rgb(25, 85, 134);
-  --button-outline-color: rgb(25, 85, 134);
-  --button-background-color: rgb(25, 85, 134);
-  --grid-color-full: rgba(127, 223, 252);
-  --grid-color-mid: rgba(127, 223, 252, .5);
-  --grid-color-light: rgba(127, 223, 252, .1);
+  --black: black;
+  --white: white;
+  --navy-blue: rgb(25, 85, 134);
+  --full-blue: rgba(127, 223, 252);
+  --medium-blue: rgba(127, 223, 252, .5);
+  --light-blue: rgba(127, 223, 252, .1);
+  --full-purple: rgb(177, 81, 255);
+  --medium-purple: rgb(203, 140, 255);
+  --light-purple: rgb(230, 199, 255);
 }
 
-.dark-theme {
-  --font-color: white;
-  --background-color: rgb(25, 85, 134);
-  --button-font-color: white;
-  --button-outline-color: white;
-  --grid-color-full: rgb(177, 81, 255);
-  --grid-color-mid: rgb(203, 140, 255);
-  --grid-color-light: rgb(230, 199, 255);
+.body {
+  font-family: 'Exo 2', sans-serif;
+  background: var(--background-color)
+  
+}
+
+body.light {
+  --background-color: var(--white);
+  --title-text: var(--black);
+  --text-black: var(--black);
+  --text-navy-blue: var(--navy-blue);
+  --row-one-color: var(--light-blue);
+  --row-two-color: var(--medium-blue);
+  --row-three-color: var(--full-blue);
+}
+
+body.dark {
+  --background-color: var(--navy-blue);
+  --title-text: var(--white);
+  --row-one-color: var(--light-purple);
+  --row-two-color: var(--medium-purple);
+  --row-three-color: var(--dark-purple);
 }
 
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Exo 2', sans-serif;
 }
 
 /* headers / titles */
@@ -43,6 +57,7 @@ ol {
   font-family: 'Bebas Neue', cursive;
   font-size: 3rem;
   margin-top: 1rem;
+  color: var(--title-text);
 }
 
 .subtitle {
