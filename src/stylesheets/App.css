@@ -26,6 +26,8 @@ ol {
   --medium-purple: rgb(202, 142, 252);
   --light-purple: rgb(224, 187, 255);
   --dark-purple: rgb(65, 0, 117);
+  --black-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  --light-shadow: 0 4px 8px 4px rgba(160, 160, 160, 0.267);
 }
 
 body.light {
@@ -36,7 +38,8 @@ body.light {
   --row-one-color: var(--light-blue);
   --row-two-color: var(--medium-blue);
   --row-three-color: var(--full-blue);
-  --button-border-color: var(--navy-blue)
+  --button-border-color: var(--navy-blue);
+  --box-shadow: var(--black-shadow);
 }
 
 body.dark {
@@ -47,7 +50,8 @@ body.dark {
   --row-one-color: var(--light-purple);
   --row-two-color: var(--medium-purple);
   --row-three-color: var(--full-purple);
-  --button-border-color: var(--dark-purple)
+  --button-border-color: var(--dark-purple);
+  --box-shadow: var(--light-shadow);
 }
 
 .App {
@@ -100,7 +104,7 @@ body.dark {
 }
 
 .category-grid {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: var(--box-shadow);
   border-radius: 5px;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -190,7 +194,7 @@ body.dark {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: var(--box-shadow);
   width: 100%;
   border-radius: 5px;
 }
@@ -207,7 +211,7 @@ body.dark {
 
 /* index table of contents */
 .index-category-wrapper {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: var(--box-shadow);
   border-radius: 5px;
   margin-top: -1rem;
   width: 90%;
