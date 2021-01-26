@@ -23,9 +23,9 @@ ol {
   --full-blue: rgba(127, 223, 252);
   --medium-blue: rgba(127, 223, 252, .5);
   --light-blue: rgba(127, 223, 252, .1);
-  --full-purple: rgb(180, 90, 253);
-  --medium-purple: rgb(202, 142, 252);
-  --light-purple: rgb(224, 187, 255);
+  --full-purple: rgb(192, 115, 255);
+  --medium-purple: rgb(210, 160, 255);
+  --light-purple: rgb(229, 205, 255);
   --dark-purple: rgb(65, 0, 117);
   --black-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   --light-shadow: 0 4px 8px 4px rgba(160, 160, 160, 0.267);
@@ -191,7 +191,6 @@ body.dark {
   padding: .5rem;
   margin-bottom: -1rem;
   border-color: var(--button-border-color);
-  /* align-self: flex-end; */
 }
 
 /* card display */
