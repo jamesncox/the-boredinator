@@ -60,7 +60,7 @@ body.light {
   --row-one-color: var(--light-blue);
   --row-two-color: var(--medium-blue);
   --row-three-color: var(--full-blue);
-  --grid-button-border-color: var(--navy-blue);
+  --grid-btn-border-color: var(--navy-blue);
 
   /* navigation buttons */
   --show-random-btn-text: var(--white);
@@ -94,7 +94,7 @@ body.dark {
   --row-one-color: var(--light-purple);
   --row-two-color: var(--medium-purple);
   --row-three-color: var(--full-purple);
-  --grid-button-border-color: var(--dark-purple);
+  --grid-btn-border-color: var(--dark-purple);
 
   /* navigtation buttons */
   --show-random-btn-text: var(--off-white);
