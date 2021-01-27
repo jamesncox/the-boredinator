@@ -56,7 +56,7 @@ body.light {
   --accent-text: var(--black);
 
   /* grid buttons and text */
-  --grid-button-text: var(--navy-blue);
+  --grid-btn-text: var(--navy-blue);
   --row-one-color: var(--light-blue);
   --row-two-color: var(--medium-blue);
   --row-three-color: var(--full-blue);
@@ -90,7 +90,7 @@ body.dark {
   --accent-text: var(--pale-yellow);
 
   /* grid buttons and text */
-  --grid-button-text: var(--dark-purple);
+  --grid-btn-text: var(--dark-purple);
   --row-one-color: var(--light-purple);
   --row-two-color: var(--medium-purple);
   --row-three-color: var(--full-purple);
