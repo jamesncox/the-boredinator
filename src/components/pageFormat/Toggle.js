@@ -10,7 +10,6 @@ export default function Toggle() {
 
     if (localStorage) {
         theme = localStorage.getItem("theme")
-        // console.log(document.getElementsByClassName("toggle")[0])
     }
 
     if (theme === lightTheme || theme === darkTheme) {
@@ -31,7 +30,6 @@ export default function Toggle() {
             localStorage.setItem("theme", "dark")
             theme = darkTheme
         }
-        // document.getElementById("toggle").checked = true;
     }
 
     return (
