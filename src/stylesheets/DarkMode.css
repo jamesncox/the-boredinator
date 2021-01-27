@@ -9,7 +9,8 @@
     transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
   }
   
-  #darkMode:hover {
+  #darkMode:hover,
+  #darkMode:focus {
     filter: none;
     background-color: var(--light-purple);
     cursor: pointer;
@@ -18,10 +19,4 @@
   #darkMode.clicked {
     filter: none !important;
     background-color: var(--full-purple);
-  }
-
-  #darkMode.clicked:hover {
-    filter: none;
-    background-color: var(--light-purple);
-    cursor: pointer;
   }
