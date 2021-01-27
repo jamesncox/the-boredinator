@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Toggle() {
 
-    let clickedClass = "clicked"
+    // let clickedClass = "clicked"
     const body = document.body
     const lightTheme = "light"
     const darkTheme = "dark"

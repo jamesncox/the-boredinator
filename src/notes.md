@@ -4,6 +4,7 @@
     - I might have to rework the way I add/remove the CSS to the my toggle and have it persist even when page reloads
     - Or figure out how to add checked = true/false to the toggle-switch ID
 
+[] Implement remember user preference for light/dark mode
 
 [] New Name ideas
     - NEVER BORED
