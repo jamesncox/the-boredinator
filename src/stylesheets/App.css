@@ -181,7 +181,7 @@ body.dark {
 }
 
 /* buttons */
-.random-activity-button {
+.random-activity-btn {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   background-color: var(--show-random-btn-color);
