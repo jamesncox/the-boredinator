@@ -1,8 +1,9 @@
 import React from 'react'
+import '../../stylesheets/DarkMode.css'
 
 export default function Toggle() {
 
-    // let clickedClass = "clicked"
+    let clickedClass = "clicked"
     const body = document.body
     const lightTheme = "light"
     const darkTheme = "dark"
@@ -21,27 +22,23 @@ export default function Toggle() {
     const switchTheme = (e) => {
         if (theme === darkTheme) {
             body.classList.replace(darkTheme, lightTheme)
-            // e.target.classList.remove(clickedClass)
+            e.target.classList.remove(clickedClass)
             localStorage.setItem("theme", "light")
             theme = lightTheme
         } else {
             body.classList.replace(lightTheme, darkTheme)
-            // e.target.classList.add(clickedClass)
+            e.target.classList.add(clickedClass)
             localStorage.setItem("theme", "dark")
             theme = darkTheme
         }
     }
 
     return (
-        <div className="toggle">
-            <input
-                type="checkbox"
-                id="toggle-switch"
-                aria-label="toggle dark mode"
-                // className={theme === "dark" ? clickedClass : ""}
-                onClick={(e) => switchTheme(e)}
-            />
-            <label htmlFor="toggle-switch"></label>
-        </div>
+        <button
+            className={theme === "dark" ? clickedClass : ""}
+            id="darkMode"
+            onClick={(e) => switchTheme(e)}
+        >
+        </button>
     )
 }
