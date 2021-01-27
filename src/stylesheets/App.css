@@ -20,6 +20,9 @@ ol {
   --black: black;
   --white: rgb(255, 255, 255);
   --off-white: rgb(240, 240, 240);
+
+  /* accents */
+  --pale-yellow: rgb(218, 218, 109);
   
   /* blues */
   --navy-blue: rgb(25, 85, 134);
@@ -47,6 +50,7 @@ body.light {
   --title-text: var(--black);
   --index-text: var(--navy-blue);
   --description-text: var(--black);
+  --accent-text: var(--black);
 
   /* grid buttons and text */
   --grid-button-text: var(--navy-blue);
@@ -80,6 +84,7 @@ body.dark {
   --title-text: var(--off-white);
   --index-text: var(--off-white);
   --description-text: var(--off-white);
+  --accent-text: var(--pale-yellow);
 
   /* grid buttons and text */
   --grid-button-text: var(--dark-purple);
@@ -118,7 +123,7 @@ body.dark {
   font-family: 'Bebas Neue', cursive;
   font-size: 3rem;
   margin-top: .25rem;
-  color: var(--title-text);
+  color: var(--accent-text);
 }
 
 .subtitle {
@@ -132,7 +137,7 @@ body.dark {
   font-family: 'Bebas Neue', cursive;
   font-size: 1.65rem;
   margin-top: 2rem;
-  color: var(--title-text);
+  color: var(--accent-text);
 }
 
 .index-title {
@@ -145,7 +150,7 @@ body.dark {
 .index-category-title {
   font-family: 'Bebas Neue', cursive;
   font-size: 1.5rem;
-  color: var(--title-text);
+  color: var(--accent-text);
   margin-top: 2rem;
 }
 
