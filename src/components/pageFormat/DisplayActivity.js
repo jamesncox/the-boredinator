@@ -39,7 +39,7 @@ function DisplayActivity(props) {
                     </div>
                 </div>
                 <button
-                    className="clear-button"
+                    className="go-back-btn"
                     onClick={e => handleClick(e)}
                 >
                     Go Back

@@ -205,7 +205,7 @@ body.dark {
   transition: var(--theme-transition);
 }
 
-.clear-button {
+.go-back-btn {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   background-color: var(--clear-btn-color);
