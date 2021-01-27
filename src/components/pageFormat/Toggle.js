@@ -9,6 +9,20 @@ export default function Toggle() {
     const darkTheme = "dark"
     let theme
 
+    const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    const userPrefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+
+    if (userPrefersDark) {
+        theme = darkTheme
+        // console.log("User prefers a dark interface");
+    }
+
+    if (userPrefersLight) {
+        theme = darkTheme
+        // console.log("User prefers a light interface")
+    }
+
     if (localStorage) {
         theme = localStorage.getItem("theme")
     }
