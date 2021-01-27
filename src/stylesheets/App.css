@@ -46,6 +46,7 @@ ol {
    --theme-transition: background-color 0.3s ease-in-out, color 0.6s ease-in-out;
 }
 
+/* light theme */
 body.light {
   /* body */
   --background-color: var(--white);
@@ -80,6 +81,7 @@ body.light {
   --box-shadow: var(--black-shadow);
 }
 
+/* dark theme */
 body.dark {
   /* body */
   --background-color: var(--slate-blue);
