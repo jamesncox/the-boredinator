@@ -20,6 +20,7 @@ ol {
   --black: black;
   --white: rgb(255, 255, 255);
   --off-white: rgb(240, 240, 240);
+  --gray: rgb(180, 180, 180);
 
   /* accents */
   --pale-yellow: rgb(218, 218, 109);
@@ -107,7 +108,7 @@ body.dark {
   --clear-btn-color: var(--slate-blue);
   --home-btn-text: var(--off-white);
   --home-btn-color: var(--slate-blue);
-  --btn-border-color: var(--off-white);
+  --btn-border-color: var(--gray);
 
   /* card */
   --box-shadow: var(--light-shadow);
