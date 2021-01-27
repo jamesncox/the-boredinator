@@ -5,7 +5,7 @@ function IndexButton(props) {
 
     return (
         <RouterLink to="/index">
-            <button className="index-button">
+            <button className="index-btn">
                 See Index of All Activities
             </button>
         </RouterLink>

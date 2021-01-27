@@ -56,11 +56,11 @@ body.light {
   --accent-text: var(--black);
 
   /* grid buttons and text */
-  --grid-button-text: var(--navy-blue);
+  --grid-btn-text: var(--navy-blue);
   --row-one-color: var(--light-blue);
   --row-two-color: var(--medium-blue);
   --row-three-color: var(--full-blue);
-  --grid-button-border-color: var(--navy-blue);
+  --grid-btn-border-color: var(--navy-blue);
 
   /* navigation buttons */
   --show-random-btn-text: var(--white);
@@ -90,11 +90,11 @@ body.dark {
   --accent-text: var(--pale-yellow);
 
   /* grid buttons and text */
-  --grid-button-text: var(--dark-purple);
+  --grid-btn-text: var(--dark-purple);
   --row-one-color: var(--light-purple);
   --row-two-color: var(--medium-purple);
   --row-three-color: var(--full-purple);
-  --grid-button-border-color: var(--dark-purple);
+  --grid-btn-border-color: var(--dark-purple);
 
   /* navigtation buttons */
   --show-random-btn-text: var(--off-white);
@@ -181,7 +181,7 @@ body.dark {
 }
 
 /* buttons */
-.random-activity-button {
+.random-activity-btn {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   background-color: var(--show-random-btn-color);
@@ -205,7 +205,7 @@ body.dark {
   transition: var(--theme-transition);
 }
 
-.clear-button {
+.go-back-btn {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   background-color: var(--clear-btn-color);
@@ -217,7 +217,7 @@ body.dark {
   transition: var(--theme-transition);
 }
 
-.index-button {
+.index-btn {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   background-color: var(--index-btn-color);
@@ -230,7 +230,7 @@ body.dark {
   transition: var(--theme-transition);
 }
 
-.home-button {
+.home-btn {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   background-color: var(--home-btn-color);

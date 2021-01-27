@@ -5,7 +5,7 @@ function HomeButton() {
 
     return (
         <RouterLink to="/">
-            <button className="home-button">
+            <button className="home-btn">
                 Return Home
             </button>
         </RouterLink>

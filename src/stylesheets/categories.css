@@ -3,34 +3,46 @@
     font-family: 'Exo 2', sans-serif;
     font-weight: bold;
     background-color: var(--row-one-color);
-    color: var(--grid-button-text);
+    color: var(--grid-btn-text);
     flex: 0 0 32%;
     height: 50px;
     margin-bottom: 5px;
+<<<<<<< HEAD
     border-color: var(--grid-button-border-color);
     transition: var(--theme-transition);
+=======
+    border-color: var(--grid-btn-border-color);
+>>>>>>> light-dark-theme
   }
   
   .medium-button {
     font-family: 'Exo 2', sans-serif;
     font-weight: bold;
     background-color: var(--row-two-color);
-    color: var(--grid-button-text);
+    color: var(--grid-btn-text);
     flex: 0 0 32%;
     height: 50px;
     margin-bottom: 5px;
+<<<<<<< HEAD
     border-color: var(--grid-button-border-color);
     transition: var(--theme-transition);
+=======
+    border-color: var(--grid-btn-border-color);
+>>>>>>> light-dark-theme
   }
   
   .dark-button {
     font-family: 'Exo 2', sans-serif;
     font-weight: bold;
     background-color: var(--row-three-color);
-    color: var(--grid-button-text);
+    color: var(--grid-btn-text);
     flex: 0 0 32%;
     height: 50px;
     margin-bottom: 5px;
+<<<<<<< HEAD
     border-color: var(--grid-button-border-color);
     transition: var(--theme-transition);
+=======
+    border-color: var(--grid-btn-border-color);
+>>>>>>> light-dark-theme
   }
