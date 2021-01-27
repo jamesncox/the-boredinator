@@ -36,7 +36,7 @@ ol {
 
   /* shadows */
   --black-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  --light-shadow: 0 4px 8px 4px rgba(160, 160, 160, 0.267);
+  --light-shadow: 0 4px 8px 4px rgba(112, 112, 112, 0.4);
 }
 
 body.light {
@@ -144,8 +144,9 @@ body.dark {
 
 .index-category-title {
   font-family: 'Bebas Neue', cursive;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: var(--title-text);
+  margin-top: 2rem;
 }
 
 /* category button grid */
@@ -222,7 +223,7 @@ body.dark {
   color: var(--home-btn-text);
   padding: .50rem;
   margin-top: 2rem;
-  margin-bottom: .5rem;
+  margin-bottom: -.5rem;
   border-color: var(--button-border-color);
 }
 
