@@ -230,7 +230,7 @@ body.dark {
   transition: var(--theme-transition);
 }
 
-.home-button {
+.home-btn {
   font-family: 'Exo 2', sans-serif;
   font-weight: bold;
   background-color: var(--home-btn-color);
