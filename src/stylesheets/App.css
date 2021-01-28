@@ -271,7 +271,6 @@ body.dark {
   display: flex;
   justify-content: center;
   text-align: center;
-  /* margin-top: -1rem; */
   transition: var(--theme-transition);
 }
 
