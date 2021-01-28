@@ -23,11 +23,11 @@ ol {
   --gray: rgb(180, 180, 180);
 
   /* accents */
-  --pale-yellow: rgb(224, 224, 84);
+  --pale-yellow: rgb(253, 253, 69);
   
   /* blues */
   --navy-blue: rgb(25, 85, 134);
-  --slate-blue: rgb(38, 57, 73);
+  --slate-blue: rgb(23, 40, 53);
   --full-blue: rgba(127, 223, 252);
   --medium-blue: rgba(127, 223, 252, .5);
   --light-blue: rgba(127, 223, 252, .1);
