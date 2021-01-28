@@ -144,7 +144,7 @@ body.dark {
 
 .activity-title {
   font-family: 'Exo 2', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-top: 2rem;
   color: var(--accent-text);
   transition: var(--theme-transition);
@@ -186,6 +186,7 @@ body.dark {
 }
 
 .category-grid-instructions {
+  font-size: 1.25rem;
   margin-top: 2rem;
   color: var(--accent-text);
   transition: var(--theme-transition);
