@@ -143,8 +143,8 @@ body.dark {
 }
 
 .activity-title {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 1.65rem;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.5rem;
   margin-top: 2rem;
   color: var(--accent-text);
   transition: var(--theme-transition);

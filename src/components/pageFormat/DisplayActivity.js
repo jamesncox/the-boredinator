@@ -17,7 +17,7 @@ function DisplayActivity(props) {
     } else {
         return (
             <>
-                <p className="activity-title">{props.randomActivity[0].name}</p>
+                <p className="activity-title">{props.randomActivity[0].name.toUpperCase()}</p>
                 <div className="card-wrapper">
                     <div className="card">
                         <ImageLoad
