@@ -6,6 +6,10 @@ Feeling bored? Don't know what to do? Let The Boredinator inspire you to try new
 
 ## Features
 
+- Light/Dark theme toggle with localStorage to save user's preference on page reload
+
+- CSS variables for efficient light and dark theme management
+
 - State management with Redux
 
 - CSS-only design, no CSS libraries
