@@ -11,6 +11,8 @@
 
 [] Incorporate icons for better looking interface?
 
+[] Image on full screen is not behaving correctly. Need to set a min or max width.
+
 [] ADD A TON OF ACTIVITIES
     [x] 20
     [] 30 
