@@ -11,8 +11,6 @@
 
 [] Incorporate icons for better looking interface?
 
-[] Image on full screen is not behaving correctly. Need to set a min or max width.
-
 [] ADD A TON OF ACTIVITIES
     [x] 20
     [] 30 
@@ -41,3 +39,5 @@
     (nope! - Or figure out how to add checked = true/false to the toggle-switch ID)
 
 [x] Implement remember user preference for light/dark mode
+
+[x] Image on full screen is not behaving correctly. Need to set a min or max width.
