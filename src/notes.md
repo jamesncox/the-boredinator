@@ -13,7 +13,7 @@
 
 [] ADD A TON OF ACTIVITIES
     [x] 20
-    [] 30 
+    [x] 30 
     [] 40
     [] 50
     [] 60
