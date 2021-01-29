@@ -7,7 +7,7 @@
     - EXPLOREDIA
     - INDEX EXPLORE IDEA ENCYCLOPEDIA
 
-[] Turn the index into collapsible/expandable components?
+[] Turn the index into collapsible/expandable components using a custom accordian react hook
 
 [] Incorporate icons for better looking interface?
 
