@@ -365,5 +365,18 @@
             "crafts",
             "inside"
         ]
+    },
+    {
+        "id": 31,
+        "name": "Rent A Bike",
+        "description": "Spinlister is a premier bike rental and sharing service that provides a platform to connect bike owners with active people looking to rent or borrow around the world. Where ever you are, find a bike to rent and go explore!",
+        "url": "https://www.spinlister.com/",
+        "image": "https://spinlister-blog.s3.amazonaws.com/2014/08/bike-sharing-spinlister.jpg",
+        "alt": "Six images of different bikes against various city street backdrops",
+        "categories": [
+            "wellness",
+            "outside",
+            "solo"
+        ]
     }
 ]
