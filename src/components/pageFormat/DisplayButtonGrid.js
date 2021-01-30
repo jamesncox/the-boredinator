@@ -14,7 +14,7 @@ import IndexButton from './IndexButton'
 
 function DisplayButtonGrid(props) {
 
-    if (props.randomActivity.length > 0) {
+    if (props.activity.length > 0) {
         return null
     } else {
         return (
@@ -41,7 +41,7 @@ function DisplayButtonGrid(props) {
 }
 
 const mapStateToProps = state => ({
-    randomActivity: state.activities.randomActivity
+    activity: state.activities.activity
 })
 
 export default connect(mapStateToProps)(DisplayButtonGrid)

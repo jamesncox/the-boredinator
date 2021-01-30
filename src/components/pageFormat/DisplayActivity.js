@@ -12,24 +12,24 @@ function DisplayActivity(props) {
         props.clearSelectedActivity()
     }
 
-    if (props.randomActivity.length === 0) {
+    if (props.activity.length === 0) {
         return null
     } else {
         return (
             <>
-                <p className="activity-title">{props.randomActivity[0].name.toUpperCase()}</p>
+                <p className="activity-title">{props.activity[0].name.toUpperCase()}</p>
                 <div className="card-wrapper">
                     <div className="card">
                         <ImageLoad
-                            src={props.randomActivity[0].image}
+                            src={props.activity[0].image}
                             placeholder={BlurryImage}
-                            alt={props.randomActivity[0].alt}
+                            alt={props.activity[0].alt}
                             className="activity-image"
                         />
                         <div className="container">
-                            <p className="description">{props.randomActivity[0].description}</p>
+                            <p className="description">{props.activity[0].description}</p>
                             <form
-                                action={props.randomActivity[0].url}
+                                action={props.activity[0].url}
                                 target="_blank"
                                 rel="noreferrer noopener"
                             >
@@ -50,7 +50,7 @@ function DisplayActivity(props) {
 }
 
 const mapStateToProps = state => ({
-    randomActivity: state.activities.randomActivity
+    activity: state.activities.activity
 })
 
 const mapDispatchToProps = dispatch => ({

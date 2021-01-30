@@ -14,7 +14,7 @@ import WellnessIndex from '../categoriesIndex/WellnessIndex'
 
 function IndexPage(props) {
 
-    if (props.randomActivity.length > 0) {
+    if (props.activity.length > 0) {
         return <DisplayActivity />
     } else {
         return (
@@ -39,7 +39,7 @@ function IndexPage(props) {
 }
 
 const mapStateToProps = state => ({
-    randomActivity: state.activities.randomActivity
+    activity: state.activities.activity
 })
 
 export default connect(mapStateToProps)(IndexPage)
