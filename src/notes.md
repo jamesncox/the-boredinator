@@ -2,6 +2,8 @@
 
 [] How can I use the /activities/:activityId link with the randomly generated activities. Should be able to use the same ActiviyPage component, but how to send the activity in state to the react-router-dom Link? 
 
+[] Create an ActivityError component that displays a more interesting error message when "Activity not found"
+
 [] New Name ideas
     - NEVER BORED
     - EXPLORE MORE
