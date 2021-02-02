@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/index">
+          <Route exact path="/activities">
             <IndexPage />
           </Route>
         </Switch>
