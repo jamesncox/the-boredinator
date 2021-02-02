@@ -19,7 +19,7 @@ function IndexPage(props) {
     } else {
         return (
             <>
-                <p className="index-title">INDEX</p>
+                <p className="index-title">ACTIVITIES</p>
                 <HomeButton />
 
                 <CouplesIndex />
