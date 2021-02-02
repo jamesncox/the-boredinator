@@ -22,7 +22,11 @@ function CraftsIndex(props) {
                 <ol style={{ listStyleType: "none" }}>
                     {alphabetizedActivities.map(activity => {
                         return (
-                            <Link key={activity.id} to={`/activities/${activity.id}`}>
+                            <Link
+                                key={activity.id}
+                                to={`/activities/${activity.id}`}
+                                style={{ textDecoration: 'none' }}
+                            >
                                 <p
                                     key={activity.id}
                                     className="index-list-items"

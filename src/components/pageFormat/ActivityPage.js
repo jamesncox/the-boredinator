@@ -13,7 +13,6 @@ export const ActivityPage = ({ match }) => {
     )
 
     if (!activity) {
-        console.log(activity, activityId)
         return (
             <section>
                 <p className="activity-title">Activity not found!</p>
@@ -22,7 +21,6 @@ export const ActivityPage = ({ match }) => {
     }
 
     return (
-        console.log(activityId, activity),
         <>
             <p className="activity-title">{activity.name.toUpperCase()}</p>
             <div className="card-wrapper">
