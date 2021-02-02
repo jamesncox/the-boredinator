@@ -1,5 +1,7 @@
 ## TO DO
 
+[] How can I use the /activities/:activityId link with the randomly generated activities. Should be able to use the same ActiviyPage component, but how to send the activity in state to the react-router-dom Link? 
+
 [] New Name ideas
     - NEVER BORED
     - EXPLORE MORE
