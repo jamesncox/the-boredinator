@@ -1,4 +1,4 @@
-## TO DO\
+## TO DO
 
 [] New Name ideas
     - NEVER BORED
@@ -41,3 +41,5 @@
 [x] Implement remember user preference for light/dark mode
 
 [x] Image on full screen is not behaving correctly. Need to set a min or max width.
+
+[x] Incorporate /activities/:activityId functionality for clicking on a specefic activity. Better web practices for navigating browser history and can navigate directly to an activity
