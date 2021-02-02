@@ -8,12 +8,6 @@ export const ActivityPage = ({ match }) => {
 
     const { activityId } = match.params
 
-    // const activities = useSelector(state =>
-    //     state.activities.allActivities
-    // )
-
-    // const activity = activities.find(a => a.id === activityId)
-
     const activity = useSelector(state =>
         state.activities.allActivities.find(a => a.id === parseInt(activityId))
     )
