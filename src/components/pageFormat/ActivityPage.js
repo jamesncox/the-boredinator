@@ -4,37 +4,45 @@ import { Link as RouterLink } from 'react-router-dom';
 import ImageLoad from '../hooks/ImageLoad'
 import BlurryImage from '../../assets/blurry image small.jpg'
 
-function ActivityPage({ match }) {
+export const ActivityPage = ({ match }) => {
 
     const { activityId } = match.params
 
+    // const activities = useSelector(state =>
+    //     state.activities.allActivities
+    // )
+
+    // const activity = activities.find(a => a.id === activityId)
+
     const activity = useSelector(state =>
-        state.activities.find(activity => activity.id === activityId)
+        state.activities.allActivities.find(a => a.id === parseInt(activityId))
     )
 
     if (!activity) {
+        console.log(activity, activityId)
         return (
             <section>
-                <h2>Activity not found!</h2>
+                <p className="activity-title">Activity not found!</p>
             </section>
         )
     }
 
     return (
+        console.log(activityId, activity),
         <>
-            <p className="activity-title">{activity[0].name.toUpperCase()}</p>
+            <p className="activity-title">{activity.name.toUpperCase()}</p>
             <div className="card-wrapper">
                 <div className="card">
                     <ImageLoad
-                        src={activity[0].image}
+                        src={activity.image}
                         placeholder={BlurryImage}
-                        alt={activity[0].alt}
+                        alt={activity.alt}
                         className="activity-image"
                     />
                     <div className="container">
-                        <p className="description">{activity[0].description}</p>
+                        <p className="description">{activity.description}</p>
                         <form
-                            action={activity[0].url}
+                            action={activity.url}
                             target="_blank"
                             rel="noreferrer noopener"
                         >
@@ -53,5 +61,3 @@ function ActivityPage({ match }) {
         </>
     )
 }
-
-export default ActivityPage

@@ -11,7 +11,7 @@ import './stylesheets/toggle.css'
 import Title from './components/pageFormat/Title.js'
 import Home from './components/pageFormat/Home'
 import IndexPage from './components/pageFormat/IndexPage'
-import ActivityPage from './components/pageFormat/ActivityPage'
+import { ActivityPage } from './components/pageFormat/ActivityPage'
 
 function App() {
   return (

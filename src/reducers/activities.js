@@ -25,7 +25,7 @@ const shuffleActivitiesToGetOne = (a) => {
 
 const Reducer = (state = {
     activity: [],
-    activities: activitiesData
+    allActivities: activitiesData
 }, action) => {
     switch (action.type) {
 
