@@ -1,24 +1,40 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
+import { Link as RouterLink } from 'react-router-dom';
 import ImageLoad from '../hooks/ImageLoad'
 import BlurryImage from '../../assets/blurry image small.jpg'
 
-function ActivityPage(props) {
+function ActivityPage({ match }) {
+
+    const { activityId } = match.params
+
+    const activity = useSelector(state =>
+        state.activities.find(activity => activity.id === activityId)
+    )
+
+    if (!activity) {
+        return (
+            <section>
+                <h2>Activity not found!</h2>
+            </section>
+        )
+    }
 
     return (
         <>
-            <p className="activity-title">{props.activity[0].name.toUpperCase()}</p>
+            <p className="activity-title">{activity[0].name.toUpperCase()}</p>
             <div className="card-wrapper">
                 <div className="card">
                     <ImageLoad
-                        src={props.activity[0].image}
+                        src={activity[0].image}
                         placeholder={BlurryImage}
-                        alt={props.activity[0].alt}
+                        alt={activity[0].alt}
                         className="activity-image"
                     />
                     <div className="container">
-                        <p className="description">{props.activity[0].description}</p>
+                        <p className="description">{activity[0].description}</p>
                         <form
-                            action={props.activity[0].url}
+                            action={activity[0].url}
                             target="_blank"
                             rel="noreferrer noopener"
                         >
@@ -27,12 +43,13 @@ function ActivityPage(props) {
                     </div>
                 </div>
             </div>
-            <button
-                className="go-back-btn"
-                onClick={e => handleClick(e)}
-            >
-                Go Back
-                </button>
+            <RouterLink to="/activities">
+                <button
+                    className="go-back-btn"
+                >
+                    Go Back
+            </button>
+            </RouterLink>
         </>
     )
 }
