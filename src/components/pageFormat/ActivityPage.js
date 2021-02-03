@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux'
 import { Link as RouterLink } from 'react-router-dom';
 import ImageLoad from '../hooks/ImageLoad'
 import BlurryImage from '../../assets/blurry image small.jpg'
+import ActivityError from './ActivityError'
 
 export const ActivityPage = ({ match }) => {
 
@@ -14,9 +15,7 @@ export const ActivityPage = ({ match }) => {
 
     if (!activity) {
         return (
-            <section>
-                <p className="activity-title">Activity not found!</p>
-            </section>
+            <ActivityError />
         )
     }
 
