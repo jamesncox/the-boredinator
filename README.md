@@ -18,6 +18,8 @@ Feeling bored? Don't know what to do? Let The Boredinator inspire you to try new
 
 - Custom JSON data objects, simulating a local API
 
+- React Router for better web practices, navigation history and linkable activities
+
 - Separate and reusable components
 
 ## Open-source Contributions
