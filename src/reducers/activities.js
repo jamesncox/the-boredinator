@@ -9,8 +9,7 @@ import {
     SET_RANDOM_INSIDE,
     SET_RANDOM_OUTSIDE,
     SET_RANDOM_PROJECTS,
-    SET_RANDOM_SOLO,
-    SET_SELECTED_INDEX_ACTIVITY
+    SET_RANDOM_SOLO
 } from '../actionTypes'
 import activitiesData from '../data/activities.json'
 
@@ -98,12 +97,6 @@ const Reducer = (state = {
             })
             const soloActivity = shuffleActivitiesToGetOne(soloActivities)
             return { ...state, activity: soloActivity }
-
-        case SET_SELECTED_INDEX_ACTIVITY:
-            const selectedActivity = activitiesData.filter(a => {
-                return a.id === action.payload
-            })
-            return { ...state, activity: selectedActivity }
 
         default:
             return state
