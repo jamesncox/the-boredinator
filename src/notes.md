@@ -1,4 +1,8 @@
-## TO DO\
+## TO DO
+
+[] How can I use the /activities/:activityId link with the randomly generated activities. Should be able to use the same ActiviyPage component, but how to send the activity in state to the react-router-dom Link? 
+
+[] Create an ActivityError component that displays a more interesting error message when "Activity not found"
 
 [] New Name ideas
     - NEVER BORED
@@ -7,15 +11,13 @@
     - EXPLOREDIA
     - INDEX EXPLORE IDEA ENCYCLOPEDIA
 
-[] Turn the index into collapsible/expandable components?
+[] Turn the index into collapsible/expandable components using a custom accordian react hook
 
 [] Incorporate icons for better looking interface?
 
-[] Image on full screen is not behaving correctly. Need to set a min or max width.
-
 [] ADD A TON OF ACTIVITIES
     [x] 20
-    [] 30 
+    [x] 30 
     [] 40
     [] 50
     [] 60
@@ -41,3 +43,7 @@
     (nope! - Or figure out how to add checked = true/false to the toggle-switch ID)
 
 [x] Implement remember user preference for light/dark mode
+
+[x] Image on full screen is not behaving correctly. Need to set a min or max width.
+
+[x] Incorporate /activities/:activityId functionality for clicking on a specefic activity. Better web practices for navigating browser history and can navigate directly to an activity

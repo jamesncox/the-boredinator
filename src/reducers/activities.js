@@ -9,8 +9,7 @@ import {
     SET_RANDOM_INSIDE,
     SET_RANDOM_OUTSIDE,
     SET_RANDOM_PROJECTS,
-    SET_RANDOM_SOLO,
-    SET_SELECTED_INDEX_ACTIVITY
+    SET_RANDOM_SOLO
 } from '../actionTypes'
 import activitiesData from '../data/activities.json'
 
@@ -24,85 +23,80 @@ const shuffleActivitiesToGetOne = (a) => {
 }
 
 const Reducer = (state = {
-    randomActivity: []
+    activity: [],
+    allActivities: activitiesData
 }, action) => {
     switch (action.type) {
 
         case CLEAR_SELECTED_ACTIVITY:
-            return { ...state, randomActivity: [] }
+            return { ...state, activity: [] }
 
         case SET_RANDOM_ACTIVITY_ALL:
             const activity = shuffleActivitiesToGetOne(activitiesData)
-            return { ...state, randomActivity: activity }
+            return { ...state, activity: activity }
 
         case SET_RANDOM_COUPLES:
             const couplesActivities = activitiesData.filter(a => {
                 return a.categories.includes("couples")
             })
             const couplesActivity = shuffleActivitiesToGetOne(couplesActivities)
-            return { ...state, randomActivity: couplesActivity }
+            return { ...state, activity: couplesActivity }
 
         case SET_RANDOM_CRAFTS:
             const craftsActivities = activitiesData.filter(a => {
                 return a.categories.includes("crafts")
             })
             const craftsActivity = shuffleActivitiesToGetOne(craftsActivities)
-            return { ...state, randomActivity: craftsActivity }
+            return { ...state, activity: craftsActivity }
 
         case SET_RANDOM_FAMILY:
             const familyActivities = activitiesData.filter(a => {
                 return a.categories.includes("family")
             })
             const familyActivity = shuffleActivitiesToGetOne(familyActivities)
-            return { ...state, randomActivity: familyActivity }
+            return { ...state, activity: familyActivity }
 
         case SET_RANDOM_WELLNESS:
             const wellnessActivities = activitiesData.filter(a => {
                 return a.categories.includes("wellness")
             })
             const wellnessActivity = shuffleActivitiesToGetOne(wellnessActivities)
-            return { ...state, randomActivity: wellnessActivity }
+            return { ...state, activity: wellnessActivity }
 
         case SET_RANDOM_FOOD:
             const foodActivities = activitiesData.filter(a => {
                 return a.categories.includes("food")
             })
             const foodActivity = shuffleActivitiesToGetOne(foodActivities)
-            return { ...state, randomActivity: foodActivity }
+            return { ...state, activity: foodActivity }
 
         case SET_RANDOM_INSIDE:
             const insideActivities = activitiesData.filter(a => {
                 return a.categories.includes("inside")
             })
             const insideActivity = shuffleActivitiesToGetOne(insideActivities)
-            return { ...state, randomActivity: insideActivity }
+            return { ...state, activity: insideActivity }
 
         case SET_RANDOM_OUTSIDE:
             const outsideActivities = activitiesData.filter(a => {
                 return a.categories.includes("outside")
             })
             const outsideActivity = shuffleActivitiesToGetOne(outsideActivities)
-            return { ...state, randomActivity: outsideActivity }
+            return { ...state, activity: outsideActivity }
 
         case SET_RANDOM_PROJECTS:
             const projectsActivities = activitiesData.filter(a => {
                 return a.categories.includes("projects")
             })
             const projectsActivity = shuffleActivitiesToGetOne(projectsActivities)
-            return { ...state, randomActivity: projectsActivity }
+            return { ...state, activity: projectsActivity }
 
         case SET_RANDOM_SOLO:
             const soloActivities = activitiesData.filter(a => {
                 return a.categories.includes("solo")
             })
             const soloActivity = shuffleActivitiesToGetOne(soloActivities)
-            return { ...state, randomActivity: soloActivity }
-
-        case SET_SELECTED_INDEX_ACTIVITY:
-            const selectedActivity = activitiesData.filter(a => {
-                return a.id === action.payload
-            })
-            return { ...state, randomActivity: selectedActivity }
+            return { ...state, activity: soloActivity }
 
         default:
             return state

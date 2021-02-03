@@ -11,6 +11,7 @@ import './stylesheets/toggle.css'
 import Title from './components/pageFormat/Title.js'
 import Home from './components/pageFormat/Home'
 import IndexPage from './components/pageFormat/IndexPage'
+import { ActivityPage } from './components/pageFormat/ActivityPage'
 
 function App() {
   return (
@@ -21,9 +22,10 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/index">
+          <Route exact path="/activities">
             <IndexPage />
           </Route>
+          <Route exact path="/activities/:activityId" component={ActivityPage} />
         </Switch>
       </div>
     </Router>

@@ -352,5 +352,31 @@
             "crafts",
             "family"
         ]
+    },
+    {
+        "id": 30,
+        "name": "Write A Letter",
+        "description": "Everyone loves getting mail, especially cards and letters. Why not help bring some of that joy into someone else's life? Plus, writing a letter by hand can be both fun and therapeutic. Use this guide to help inspire your next hand-written letter!",
+        "url": "https://www.grammarly.com/blog/how-to-write-a-letter-to-a-friend/",
+        "image": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2020/07/friendly-ltter-760x406.jpg",
+        "alt": "A colorful drawing depicting two people on either side of a letter being written",
+        "categories": [
+            "solo",
+            "crafts",
+            "inside"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Rent A Bike",
+        "description": "Spinlister is a premier bike rental and sharing service that provides a platform to connect bike owners with active people looking to rent or borrow around the world. Where ever you are, find a bike to rent and go explore!",
+        "url": "https://www.spinlister.com/",
+        "image": "https://spinlister-blog.s3.amazonaws.com/2014/08/bike-sharing-spinlister.jpg",
+        "alt": "Six images of different bikes against various city street backdrops",
+        "categories": [
+            "wellness",
+            "outside",
+            "solo"
+        ]
     }
 ]

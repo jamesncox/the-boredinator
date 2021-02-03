@@ -1,8 +1,5 @@
 import React from 'react'
-import { connect } from 'react-redux'
-import {
-    SET_SELECTED_INDEX_ACTIVITY
-} from '../../actionTypes'
+import { Link } from 'react-router-dom'
 import activitiesData from '../../data/activities.json'
 
 function CouplesIndex(props) {
@@ -17,10 +14,6 @@ function CouplesIndex(props) {
         return 0;
     })
 
-    const handleClick = (id) => {
-        props.setSelectedIndexActivity(id)
-    }
-
     return (
         <>
             <p className="index-category-title">Couples</p>
@@ -28,24 +21,24 @@ function CouplesIndex(props) {
                 <ol style={{ listStyleType: "none" }}>
                     {alphabetizedActivities.map(activity => {
                         return (
-                            <p
+                            <Link
                                 key={activity.id}
-                                className="index-list-items"
-                                onClick={e => handleClick(activity.id)}
+                                to={`/activities/${activity.id}`}
+                                style={{ textDecoration: 'none' }}
                             >
-                                {activity.name}
-                            </p>
+                                <p
+                                    key={activity.id}
+                                    className="index-list-items"
+                                >
+                                    {activity.name}
+                                </p>
+                            </Link>
                         )
                     })}
                 </ol>
             </div>
         </>
     )
-
 }
 
-const mapDispatchToProps = dispatch => ({
-    setSelectedIndexActivity: (id) => dispatch({ type: SET_SELECTED_INDEX_ACTIVITY, payload: id })
-})
-
-export default connect(null, mapDispatchToProps)(CouplesIndex)
+export default CouplesIndex
