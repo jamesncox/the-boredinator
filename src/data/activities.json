@@ -390,5 +390,16 @@
             "crafts",
             "family"
         ]
+    },
+    {
+        "id": 33,
+        "name": "Organize Your Garage",
+        "description": "We've all done it: let our garages become unruly monsters where finding anything is impossible. Use this guide to help you clean and organize your garage, and you will thank yourself for years to come!",
+        "url": "https://www.budgetdumpster.com/blog/how-to-clean-out-your-garage-and-conquer-the-clutter-for-good/",
+        "image": "https://www.drivenbydecor.com/wp-content/uploads/2018/09/how-organize-garage-elfa-utility-shelving-container-store.jpg",
+        "alt": "A clean and organized garage with everyday garaghe items shelved, boxed and labeled",
+        "categories": [
+            "projects"
+        ]
     }
 ]
