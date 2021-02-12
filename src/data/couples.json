@@ -75,5 +75,16 @@
             "couples",
             "outside"
         ]
+    },
+    {
+        "id": 7,
+        "name": "Painting With A Twist",
+        "description": "Get your paint supplies, your favorite adult beverage and find a virtual paint event with Twist at Home's virtual live painting events. Create a masterpiece!",
+        "url": "https://www.paintingwithatwist.com/pages/virtual-live-events/",
+        "image": "https://c.files.bbci.co.uk/C3F8/production/_99086105_capture.png",
+        "alt": "People painting and having a glass of wine",
+        "categories": [
+            "couples"
+        ]
     }
 ]
