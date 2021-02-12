@@ -45,5 +45,17 @@
         "categories": [
             ""
         ]
+    },
+    {
+        "id": 5,
+        "name": "Origami",
+        "description": "Origami is a fun and inexpensive activity to do with your kiddos, or just yourself. This site has loads of different patterns with detailed instructions. See what you can create!",
+        "url": "https://origami.guide/",
+        "image": "https://www.artnews.com/wp-content/uploads/2020/05/shutterstock_1100575436.jpg",
+        "alt": "A person's hands folding several different Origami animals in brightly colored papers",
+        "categories": [
+            "crafts",
+            "family"
+        ]
     }
 ]
