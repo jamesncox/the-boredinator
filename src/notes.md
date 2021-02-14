@@ -47,5 +47,3 @@
 [x] Create an ActivityError component that displays a more interesting error message when "Activity not found"
 
 [x] (Not sure I am going to do this anymore) Lazy loader is there and working, BUT I want to somehow render a placeholder of the SAME image about to load. I don't know if that's possible. I can check this one off when I finally figure out how to lazy laod the SAME image and not a small, local image. 
-
-test commit
