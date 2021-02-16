@@ -13,6 +13,10 @@ export const ActivityPage = ({ match }) => {
         state.activities.allActivities.find(a => a.id === parseInt(activityId))
     )
 
+    const image = require(`${activity.image}`)
+
+    const thumbnail = require(`${activity.thumbnail}`)
+
     if (!activity) {
         return (
             <ActivityError />
@@ -25,8 +29,8 @@ export const ActivityPage = ({ match }) => {
             <div className="card-wrapper">
                 <div className="card">
                     <ImageLoad
-                        src={activity.image}
-                        placeholder={BlurryImage}
+                        src={image}
+                        placeholder={thumbnail}
                         alt={activity.alt}
                         className="activity-image"
                     />
