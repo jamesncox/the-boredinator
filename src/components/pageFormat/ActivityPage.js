@@ -13,9 +13,9 @@ export const ActivityPage = ({ match }) => {
         state.activities.allActivities.find(a => a.id === parseInt(activityId))
     )
 
-    const image = require(`${activity.image}`)
+    // const image = require(`${activity.image}`)
 
-    const thumbnail = require(`${activity.thumbnail}`)
+    // const thumbnail = require(`${activity.thumbnail}`)
 
     if (!activity) {
         return (
@@ -29,8 +29,8 @@ export const ActivityPage = ({ match }) => {
             <div className="card-wrapper">
                 <div className="card">
                     <ImageLoad
-                        src={image}
-                        placeholder={thumbnail}
+                        src={require(activity.image)}
+                        placeholder={require(activity.thumbnail)}
                         alt={activity.alt}
                         className="activity-image"
                     />
