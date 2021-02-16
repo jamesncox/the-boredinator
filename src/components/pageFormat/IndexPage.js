@@ -14,9 +14,6 @@ import WellnessIndex from '../categoriesIndex/WellnessIndex'
 
 function IndexPage(props) {
 
-    // if (props.activity.length > 0) {
-    //     return <DisplayActivity />
-    // } else {
     return (
         <>
             <p className="index-title">ACTIVITIES</p>
@@ -36,7 +33,6 @@ function IndexPage(props) {
         </>
     )
 }
-// }
 
 const mapStateToProps = state => ({
     activity: state.activities.activity
