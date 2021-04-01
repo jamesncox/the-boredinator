@@ -4,6 +4,8 @@ https://boredinator.netlify.app/
 
 Feeling bored? Don't know what to do? Let The Boredinator inspire you to try new and fun activities. Find an activity by category or get a totally random activity, if you're feeling brave!
 
+![the-boredinator](https://user-images.githubusercontent.com/47455758/113317004-8d85a480-92d4-11eb-9e62-820f43784a6a.jpg)
+
 ## Features
 
 - Light/Dark theme toggle with localStorage to save user's preference on page reload
