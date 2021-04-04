@@ -29,6 +29,7 @@ const Reducer = (
     allActivities: activitiesData,
     activitiesBySelectedCategory: activitiesData,
     category: "ALL ACTIVITIES",
+    index: 0,
   },
   action
 ) => {
@@ -43,6 +44,7 @@ const Reducer = (
         activity: activity,
         activitiesBySelectedCategory: activitiesData,
         category: "ALL ACTIVITIES",
+        index: 0,
       };
 
     case SET_RANDOM_COUPLES:
@@ -55,6 +57,7 @@ const Reducer = (
         activity: couplesActivity,
         activitiesBySelectedCategory: couplesActivities,
         category: "COUPLES IDEAS",
+        index: 0,
       };
 
     case SET_RANDOM_CRAFTS:
@@ -67,6 +70,7 @@ const Reducer = (
         activity: craftsActivity,
         activitiesBySelectedCategory: craftsActivities,
         category: "CRAFT IDEAS",
+        index: 0,
       };
 
     case SET_RANDOM_FAMILY:
@@ -79,6 +83,7 @@ const Reducer = (
         activity: familyActivity,
         activitiesBySelectedCategory: familyActivities,
         category: "FAMILY IDEAS",
+        index: 0,
       };
 
     case SET_RANDOM_WELLNESS:
@@ -91,6 +96,7 @@ const Reducer = (
         activity: wellnessActivity,
         activitiesBySelectedCategory: wellnessActivities,
         category: "WELLNESS IDEAS",
+        index: 0,
       };
 
     case SET_RANDOM_FOOD:
@@ -103,6 +109,7 @@ const Reducer = (
         activity: foodActivity,
         activitiesBySelectedCategory: foodActivities,
         category: "FOOD IDEAS",
+        index: 0,
       };
 
     case SET_RANDOM_INSIDE:
@@ -115,6 +122,7 @@ const Reducer = (
         activity: insideActivity,
         activitiesBySelectedCategory: insideActivities,
         category: "INSIDE IDEAS",
+        index: 0,
       };
 
     case SET_RANDOM_OUTSIDE:
@@ -127,6 +135,7 @@ const Reducer = (
         activity: outsideActivity,
         activitiesBySelectedCategory: outsideActivities,
         category: "OUTSIDE IDEAS",
+        index: 0,
       };
 
     case SET_RANDOM_PROJECTS:
@@ -139,6 +148,7 @@ const Reducer = (
         activity: projectsActivity,
         activitiesBySelectedCategory: projectsActivities,
         category: "PROJECT IDEAS",
+        index: 0,
       };
 
     case SET_RANDOM_SOLO:
@@ -151,6 +161,7 @@ const Reducer = (
         activity: soloActivity,
         activitiesBySelectedCategory: soloActivities,
         category: "SOLO IDEAS",
+        index: 0,
       };
 
     case NEXT_ACTIVITY:
