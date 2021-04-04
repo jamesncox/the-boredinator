@@ -139,9 +139,7 @@ const Reducer = (
       };
 
     case NEXT_ACTIVITY:
-      const nextActivity = shuffleActivitiesToGetOne(
-        activitiesBySelectedCategory
-      );
+      const nextActivity = shuffleActivitiesToGetOne(activitiesData);
       return { ...state, activity: nextActivity };
 
     default:

@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { CLEAR_SELECTED_ACTIVITY } from "../../actionTypes";
 import ImageLoad from "../hooks/ImageLoad";
 import BlurryImage from "../../assets/blurry image small.jpg";
+import NextActivity from "../generatorButtons/NextActivity";
 
 function DisplayActivity(props) {
   const handleClick = () => {
@@ -14,6 +15,7 @@ function DisplayActivity(props) {
   } else {
     return (
       <>
+        <NextActivity />
         <p className="activity-title">{props.activity[0].name.toUpperCase()}</p>
         <div className="card-wrapper">
           <div className="card">
