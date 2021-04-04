@@ -15,7 +15,7 @@ function DisplayActivity(props) {
   } else {
     return (
       <>
-        <p className="activity-title">{props.category}</p>
+        <p className="category-title">{props.category}</p>
         <NextActivity />
         <p className="activity-title">{props.activity[0].name.toUpperCase()}</p>
         <div className="card-wrapper">

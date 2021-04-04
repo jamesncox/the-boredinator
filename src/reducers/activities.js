@@ -54,7 +54,7 @@ const Reducer = (
         ...state,
         activity: couplesActivity,
         activitiesBySelectedCategory: couplesActivities,
-        category: "COUPLES",
+        category: "COUPLES IDEAS",
       };
 
     case SET_RANDOM_CRAFTS:
@@ -66,7 +66,7 @@ const Reducer = (
         ...state,
         activity: craftsActivity,
         activitiesBySelectedCategory: craftsActivities,
-        category: "CRAFTS",
+        category: "CRAFT IDEAS",
       };
 
     case SET_RANDOM_FAMILY:
@@ -78,7 +78,7 @@ const Reducer = (
         ...state,
         activity: familyActivity,
         activitiesBySelectedCategory: familyActivities,
-        category: "FAMILY",
+        category: "FAMILY IDEAS",
       };
 
     case SET_RANDOM_WELLNESS:
@@ -90,7 +90,7 @@ const Reducer = (
         ...state,
         activity: wellnessActivity,
         activitiesBySelectedCategory: wellnessActivities,
-        category: "WELLNESS",
+        category: "WELLNESS IDEAS",
       };
 
     case SET_RANDOM_FOOD:
@@ -102,7 +102,7 @@ const Reducer = (
         ...state,
         activity: foodActivity,
         activitiesBySelectedCategory: foodActivities,
-        category: "FOOD",
+        category: "FOOD IDEAS",
       };
 
     case SET_RANDOM_INSIDE:
@@ -114,7 +114,7 @@ const Reducer = (
         ...state,
         activity: insideActivity,
         activitiesBySelectedCategory: insideActivities,
-        category: "INSIDE",
+        category: "INSIDE IDEAS",
       };
 
     case SET_RANDOM_OUTSIDE:
@@ -126,7 +126,7 @@ const Reducer = (
         ...state,
         activity: outsideActivity,
         activitiesBySelectedCategory: outsideActivities,
-        category: "OUTSIDE",
+        category: "OUTSIDE IDEAS",
       };
 
     case SET_RANDOM_PROJECTS:
@@ -138,7 +138,7 @@ const Reducer = (
         ...state,
         activity: projectsActivity,
         activitiesBySelectedCategory: projectsActivities,
-        category: "PROJECTS",
+        category: "PROJECT IDEAS",
       };
 
     case SET_RANDOM_SOLO:
@@ -150,7 +150,7 @@ const Reducer = (
         ...state,
         activity: soloActivity,
         activitiesBySelectedCategory: soloActivities,
-        category: "SOLO",
+        category: "SOLO IDEAS",
       };
 
     case NEXT_ACTIVITY:
