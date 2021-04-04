@@ -139,8 +139,7 @@ const Reducer = (
       };
 
     case NEXT_ACTIVITY:
-      const nextActivity = shuffleActivitiesToGetOne(activitiesData);
-      return { ...state, activity: nextActivity };
+      return { ...state, activity: action.payload };
 
     default:
       return state;
