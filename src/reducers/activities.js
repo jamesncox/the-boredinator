@@ -28,7 +28,7 @@ const Reducer = (
     activity: [],
     allActivities: activitiesData,
     activitiesBySelectedCategory: activitiesData,
-    category: "ALL",
+    category: "ALL ACTIVITIES",
   },
   action
 ) => {
@@ -42,7 +42,7 @@ const Reducer = (
         ...state,
         activity: activity,
         activitiesBySelectedCategory: activitiesData,
-        category: "ALL",
+        category: "ALL ACTIVITIES",
       };
 
     case SET_RANDOM_COUPLES:
