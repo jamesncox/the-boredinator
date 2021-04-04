@@ -8,7 +8,7 @@ function NextActivity(props) {
   };
 
   return (
-    <button className="go-back-btn" onClick={(e) => handleClick(e)}>
+    <button className="next-btn" onClick={(e) => handleClick(e)}>
       Next Activity
     </button>
   );

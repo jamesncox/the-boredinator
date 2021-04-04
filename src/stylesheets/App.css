@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
 
 body {
   background-color: var(--background-color);
@@ -24,13 +24,13 @@ ol {
 
   /* accents */
   --pale-yellow: rgb(253, 253, 69);
-  
+
   /* blues */
   --navy-blue: rgb(25, 85, 134);
   --slate-blue: rgb(23, 40, 53);
   --full-blue: rgba(127, 223, 252);
-  --medium-blue: rgba(127, 223, 252, .5);
-  --light-blue: rgba(127, 223, 252, .1);
+  --medium-blue: rgba(127, 223, 252, 0.5);
+  --light-blue: rgba(127, 223, 252, 0.1);
 
   /* purples */
   --full-purple: rgb(199, 130, 255);
@@ -39,11 +39,11 @@ ol {
   --dark-purple: rgb(65, 0, 117);
 
   /* shadows */
-  --black-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  --black-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   --light-shadow: 0 1px 2px 2px rgba(105, 105, 105, 0.3);
 
-   /* transition */
-   --theme-transition: background-color .4s ease-in-out, color .8s ease-in-out;
+  /* transition */
+  --theme-transition: background-color 0.4s ease-in-out, color 0.8s ease-in-out;
 }
 
 /* light theme */
@@ -76,7 +76,7 @@ body.light {
   --home-btn-text: var(--navy-blue);
   --home-btn-color: var(--white);
   --btn-border-color: var(--navy-blue);
- 
+
   /* card */
   --box-shadow: var(--black-shadow);
 }
@@ -117,7 +117,7 @@ body.dark {
 }
 
 .App {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -127,23 +127,23 @@ body.dark {
 
 /* headers / titles */
 .title {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 3rem;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
   color: var(--accent-text);
   transition: var(--theme-transition);
 }
 
 .subtitle {
-  font-family: 'Hachi Maru Pop', cursive;
-  font-size: .75rem;
+  font-family: "Hachi Maru Pop", cursive;
+  font-size: 0.75rem;
   margin-top: -2.5rem;
   color: var(--title-text);
   transition: var(--theme-transition);
 }
 
 .activity-title {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 1.25rem;
   margin-top: 2rem;
   color: var(--accent-text);
@@ -153,13 +153,13 @@ body.dark {
 .index-title {
   margin-top: 2rem;
   font-size: 2rem;
-  margin-bottom: -.5rem;
+  margin-bottom: -0.5rem;
   color: var(--title-text);
   transition: var(--theme-transition);
 }
 
 .index-category-title {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 1.5rem;
   color: var(--accent-text);
   margin-top: 2rem;
@@ -194,11 +194,11 @@ body.dark {
 
 /* buttons */
 .random-activity-btn {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: bold;
   background-color: var(--show-random-btn-color);
   color: var(--show-random-btn-text);
-  padding: .50rem;
+  padding: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-color: var(--btn-border-color);
@@ -206,11 +206,11 @@ body.dark {
 }
 
 .take-me-there {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: bold;
   background-color: var(--take-me-there-btn-color);
   color: var(--take-me-there-btn-text);
-  padding: .5rem;
+  padding: 0.5rem;
   cursor: pointer;
   justify-self: center;
   border-color: var(--btn-border-color);
@@ -218,11 +218,11 @@ body.dark {
 }
 
 .go-back-btn {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: bold;
   background-color: var(--clear-btn-color);
   color: var(--clear-btn-text);
-  padding: .5rem;
+  padding: 0.5rem;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
   border-color: var(--btn-border-color);
@@ -230,11 +230,11 @@ body.dark {
 }
 
 .index-btn {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: bold;
   background-color: var(--index-btn-color);
   color: var(--index-btn-text);
-  padding: .5rem;
+  padding: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
   border-color: var(--btn-border-color);
@@ -243,25 +243,36 @@ body.dark {
 }
 
 .home-btn {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: bold;
   background-color: var(--home-btn-color);
   color: var(--home-btn-text);
-  padding: .50rem;
+  padding: 0.5rem;
   margin-top: 2rem;
-  margin-bottom: -.5rem;
+  margin-bottom: -0.5rem;
   border-color: var(--btn-border-color);
   transition: var(--theme-transition);
 }
 
 .toggle-theme-button {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: bold;
-  font-size: .75rem;
+  font-size: 0.75rem;
   background-color: white;
   color: rgb(25, 85, 134);
-  padding: .5rem;
+  padding: 0.5rem;
   margin-bottom: -1rem;
+  border-color: var(--btn-border-color);
+  transition: var(--theme-transition);
+}
+
+.next-btn {
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  background-color: var(--clear-btn-color);
+  color: var(--clear-btn-text);
+  padding: 0.5rem;
+  margin-top: 2rem;
   border-color: var(--btn-border-color);
   transition: var(--theme-transition);
 }
@@ -309,7 +320,7 @@ body.dark {
 
 .index-list-items {
   font-weight: bold;
-  color:  var(--index-text);
+  color: var(--index-text);
   cursor: pointer;
   transition: var(--theme-transition);
 }
