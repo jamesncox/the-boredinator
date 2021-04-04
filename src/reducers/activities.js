@@ -23,13 +23,18 @@ const shuffleActivitiesToGetOne = (a) => {
   return a.slice(0, 1);
 };
 
+const stepThroughActivitiesOneAtATime = (array, index) => {
+  console.log(array[index]);
+  // return array[index];
+};
+
 const Reducer = (
   state = {
     activity: [],
     allActivities: activitiesData,
     activitiesBySelectedCategory: activitiesData,
     category: "ALL ACTIVITIES",
-    index: 0,
+    index: 1,
   },
   action
 ) => {
@@ -44,7 +49,7 @@ const Reducer = (
         activity: activity,
         activitiesBySelectedCategory: activitiesData,
         category: "ALL ACTIVITIES",
-        index: 0,
+        index: 1,
       };
 
     case SET_RANDOM_COUPLES:
@@ -57,7 +62,7 @@ const Reducer = (
         activity: couplesActivity,
         activitiesBySelectedCategory: couplesActivities,
         category: "COUPLES IDEAS",
-        index: 0,
+        index: 1,
       };
 
     case SET_RANDOM_CRAFTS:
@@ -70,7 +75,7 @@ const Reducer = (
         activity: craftsActivity,
         activitiesBySelectedCategory: craftsActivities,
         category: "CRAFT IDEAS",
-        index: 0,
+        index: 1,
       };
 
     case SET_RANDOM_FAMILY:
@@ -83,7 +88,7 @@ const Reducer = (
         activity: familyActivity,
         activitiesBySelectedCategory: familyActivities,
         category: "FAMILY IDEAS",
-        index: 0,
+        index: 1,
       };
 
     case SET_RANDOM_WELLNESS:
@@ -96,7 +101,7 @@ const Reducer = (
         activity: wellnessActivity,
         activitiesBySelectedCategory: wellnessActivities,
         category: "WELLNESS IDEAS",
-        index: 0,
+        index: 1,
       };
 
     case SET_RANDOM_FOOD:
@@ -109,7 +114,7 @@ const Reducer = (
         activity: foodActivity,
         activitiesBySelectedCategory: foodActivities,
         category: "FOOD IDEAS",
-        index: 0,
+        index: 1,
       };
 
     case SET_RANDOM_INSIDE:
@@ -122,7 +127,7 @@ const Reducer = (
         activity: insideActivity,
         activitiesBySelectedCategory: insideActivities,
         category: "INSIDE IDEAS",
-        index: 0,
+        index: 1,
       };
 
     case SET_RANDOM_OUTSIDE:
@@ -135,7 +140,7 @@ const Reducer = (
         activity: outsideActivity,
         activitiesBySelectedCategory: outsideActivities,
         category: "OUTSIDE IDEAS",
-        index: 0,
+        index: 1,
       };
 
     case SET_RANDOM_PROJECTS:
@@ -148,7 +153,7 @@ const Reducer = (
         activity: projectsActivity,
         activitiesBySelectedCategory: projectsActivities,
         category: "PROJECT IDEAS",
-        index: 0,
+        index: 1,
       };
 
     case SET_RANDOM_SOLO:
@@ -161,14 +166,27 @@ const Reducer = (
         activity: soloActivity,
         activitiesBySelectedCategory: soloActivities,
         category: "SOLO IDEAS",
-        index: 0,
+        index: 1,
       };
 
     case NEXT_ACTIVITY:
-      const activityByCategory = shuffleActivitiesToGetOne(
-        state.activitiesBySelectedCategory
-      );
-      return { ...state, activity: activityByCategory };
+      const activityByCategory = [
+        state.activitiesBySelectedCategory[state.index],
+      ];
+
+      if (state.activitiesBySelectedCategory.length - 1 === state.index) {
+        return {
+          ...state,
+          activity: activityByCategory,
+          index: 0,
+        };
+      } else {
+        return {
+          ...state,
+          activity: activityByCategory,
+          index: state.index + 1,
+        };
+      }
 
     default:
       return state;
