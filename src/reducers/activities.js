@@ -43,63 +43,99 @@ const Reducer = (
         return a.categories.includes("couples");
       });
       const couplesActivity = shuffleActivitiesToGetOne(couplesActivities);
-      return { ...state, activity: couplesActivity };
+      return {
+        ...state,
+        activity: couplesActivity,
+        activitiesBySelectedCategory: couplesActivities,
+      };
 
     case SET_RANDOM_CRAFTS:
       const craftsActivities = activitiesData.filter((a) => {
         return a.categories.includes("crafts");
       });
       const craftsActivity = shuffleActivitiesToGetOne(craftsActivities);
-      return { ...state, activity: craftsActivity };
+      return {
+        ...state,
+        activity: craftsActivity,
+        activitiesBySelectedCategory: craftsActivities,
+      };
 
     case SET_RANDOM_FAMILY:
       const familyActivities = activitiesData.filter((a) => {
         return a.categories.includes("family");
       });
       const familyActivity = shuffleActivitiesToGetOne(familyActivities);
-      return { ...state, activity: familyActivity };
+      return {
+        ...state,
+        activity: familyActivity,
+        activitiesBySelectedCategory: familyActivities,
+      };
 
     case SET_RANDOM_WELLNESS:
       const wellnessActivities = activitiesData.filter((a) => {
         return a.categories.includes("wellness");
       });
       const wellnessActivity = shuffleActivitiesToGetOne(wellnessActivities);
-      return { ...state, activity: wellnessActivity };
+      return {
+        ...state,
+        activity: wellnessActivity,
+        activitiesBySelectedCategory: wellnessActivities,
+      };
 
     case SET_RANDOM_FOOD:
       const foodActivities = activitiesData.filter((a) => {
         return a.categories.includes("food");
       });
       const foodActivity = shuffleActivitiesToGetOne(foodActivities);
-      return { ...state, activity: foodActivity };
+      return {
+        ...state,
+        activity: foodActivity,
+        activitiesBySelectedCategory: foodActivities,
+      };
 
     case SET_RANDOM_INSIDE:
       const insideActivities = activitiesData.filter((a) => {
         return a.categories.includes("inside");
       });
       const insideActivity = shuffleActivitiesToGetOne(insideActivities);
-      return { ...state, activity: insideActivity };
+      return {
+        ...state,
+        activity: insideActivity,
+        activitiesBySelectedCategory: insideActivities,
+      };
 
     case SET_RANDOM_OUTSIDE:
       const outsideActivities = activitiesData.filter((a) => {
         return a.categories.includes("outside");
       });
       const outsideActivity = shuffleActivitiesToGetOne(outsideActivities);
-      return { ...state, activity: outsideActivity };
+      return {
+        ...state,
+        activity: outsideActivity,
+        activitiesBySelectedCategory: outsideActivities,
+      };
 
     case SET_RANDOM_PROJECTS:
       const projectsActivities = activitiesData.filter((a) => {
         return a.categories.includes("projects");
       });
       const projectsActivity = shuffleActivitiesToGetOne(projectsActivities);
-      return { ...state, activity: projectsActivity };
+      return {
+        ...state,
+        activity: projectsActivity,
+        activitiesBySelectedCategory: projectsActivities,
+      };
 
     case SET_RANDOM_SOLO:
       const soloActivities = activitiesData.filter((a) => {
         return a.categories.includes("solo");
       });
       const soloActivity = shuffleActivitiesToGetOne(soloActivities);
-      return { ...state, activity: soloActivity };
+      return {
+        ...state,
+        activity: soloActivity,
+        activitiesBySelectedCategory: soloActivities,
+      };
 
     default:
       return state;
