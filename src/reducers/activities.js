@@ -37,7 +37,11 @@ const Reducer = (
 
     case SET_RANDOM_ACTIVITY_ALL:
       const activity = shuffleActivitiesToGetOne(activitiesData);
-      return { ...state, activity: activity };
+      return {
+        ...state,
+        activity: activity,
+        activitiesBySelectedCategory: activitiesData,
+      };
 
     case SET_RANDOM_COUPLES:
       const couplesActivities = activitiesData.filter((a) => {
