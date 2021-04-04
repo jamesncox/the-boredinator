@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import RandomActivityButton from "./RandomActivityButton";
+import RandomActivityButton from "../generatorButtons/RandomActivityButton";
 import CouplesButton from "../generatorButtons/Couples";
 import CraftsButton from "../generatorButtons/Crafts";
 import FamilyButton from "../generatorButtons/Family";
