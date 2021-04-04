@@ -15,6 +15,7 @@ function DisplayActivity(props) {
   } else {
     return (
       <>
+        <p className="index-category-title">{props.category}</p>
         <NextActivity />
         <p className="activity-title">{props.activity[0].name.toUpperCase()}</p>
         <div className="card-wrapper">
@@ -47,6 +48,7 @@ function DisplayActivity(props) {
 
 const mapStateToProps = (state) => ({
   activity: state.activities.activity,
+  category: state.activities.category,
 });
 
 const mapDispatchToProps = (dispatch) => ({

@@ -9,7 +9,7 @@ function NextActivity(props) {
   };
 
   return (
-    <button className="random-activity-btn" onClick={(e) => handleClick(e)}>
+    <button className="next-btn" onClick={(e) => handleClick(e)}>
       Next Activity
     </button>
   );
