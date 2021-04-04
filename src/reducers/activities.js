@@ -10,6 +10,7 @@ import {
   SET_RANDOM_OUTSIDE,
   SET_RANDOM_PROJECTS,
   SET_RANDOM_SOLO,
+  NEXT_ACTIVITY,
 } from "../actionTypes";
 import activitiesData from "../data/activities.json";
 
@@ -136,6 +137,12 @@ const Reducer = (
         activity: soloActivity,
         activitiesBySelectedCategory: soloActivities,
       };
+
+    case NEXT_ACTIVITY:
+      const nextActivity = shuffleActivitiesToGetOne(
+        activitiesBySelectedCategory
+      );
+      return { ...state, activity: nextActivity };
 
     default:
       return state;
