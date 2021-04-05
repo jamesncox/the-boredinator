@@ -94,7 +94,7 @@ body.dark {
   --description-text: var(--off-white);
   --accent-text: var(--pale-yellow);
   --footer-text: var(--gray);
-  --link-hover: var(--pale-yellow);
+  --link-hover: var(--full-purple);
 
   /* grid buttons and text */
   --grid-btn-text: var(--dark-purple);
@@ -237,7 +237,7 @@ body.dark {
   color: var(--clear-btn-text);
   padding: 0.5rem;
   margin-top: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 10rem;
   border-color: var(--btn-border-color);
   transition: var(--theme-transition);
 }
@@ -249,7 +249,7 @@ body.dark {
   color: var(--index-btn-text);
   padding: 0.5rem;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 10rem;
   border-color: var(--btn-border-color);
   transition: background-color 0.3s ease-in-out, color 0.6s ease-in-out;
   transition: var(--theme-transition);
@@ -339,7 +339,7 @@ body.dark {
 }
 
 .footer {
-  font-family: "Roboto", sans-serif;
+  font-family: "Exo 2", sans-serif;
   margin-top: auto;
   bottom: 0;
   border-top: 1px solid var(--footer-text);
