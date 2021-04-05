@@ -332,3 +332,13 @@ body.dark {
   cursor: pointer;
   transition: var(--theme-transition);
 }
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  bottom: 0;
+  border-top: 1px solid var(--title-text);
+  color: var(--title-text);
+  text-align: center;
+  transition: var(--theme-transition);
+}
