@@ -174,19 +174,14 @@ const Reducer = (
         state.activitiesBySelectedCategory[state.index],
       ];
 
-      if (state.activitiesBySelectedCategory.length - 1 === state.index) {
-        return {
-          ...state,
-          activity: activityByCategory,
-          index: 0,
-        };
-      } else {
-        return {
-          ...state,
-          activity: activityByCategory,
-          index: state.index + 1,
-        };
-      }
+      return {
+        ...state,
+        activity: activityByCategory,
+        index:
+          state.activitiesBySelectedCategory.length - 1 === state.index
+            ? 0
+            : state.index + 1,
+      };
 
     default:
       return state;
