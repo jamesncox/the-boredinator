@@ -57,6 +57,7 @@ body.light {
   --description-text: var(--black);
   --accent-text: var(--black);
   --footer-text: var(--black);
+  --link-hover: var(--full-blue);
 
   /* grid buttons and text */
   --grid-btn-text: var(--navy-blue);
@@ -93,6 +94,7 @@ body.dark {
   --description-text: var(--off-white);
   --accent-text: var(--pale-yellow);
   --footer-text: var(--gray);
+  --link-hover: var(--pale-yellow);
 
   /* grid buttons and text */
   --grid-btn-text: var(--dark-purple);
@@ -344,4 +346,16 @@ body.dark {
   color: var(--footer-text);
   text-align: center;
   transition: var(--theme-transition), border-top-color 0.8s ease-in-out;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--footer-text);
+  transition: var(--theme-transition);
+}
+
+.footer-link:hover {
+  color: var(--link-hover);
+  transition: none;
 }
