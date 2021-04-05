@@ -56,6 +56,7 @@ body.light {
   --index-text: var(--navy-blue);
   --description-text: var(--black);
   --accent-text: var(--black);
+  --footer-text: var(--black);
 
   /* grid buttons and text */
   --grid-btn-text: var(--navy-blue);
@@ -91,6 +92,7 @@ body.dark {
   --index-text: var(--off-white);
   --description-text: var(--off-white);
   --accent-text: var(--pale-yellow);
+  --footer-text: var(--gray);
 
   /* grid buttons and text */
   --grid-btn-text: var(--dark-purple);
@@ -338,8 +340,8 @@ body.dark {
   font-family: "Roboto", sans-serif;
   margin-top: auto;
   bottom: 0;
-  border-top: 1px solid var(--title-text);
-  color: var(--title-text);
+  border-top: 1px solid var(--footer-text);
+  color: var(--footer-text);
   text-align: center;
   transition: var(--theme-transition);
 }
