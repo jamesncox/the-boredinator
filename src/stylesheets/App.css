@@ -343,5 +343,5 @@ body.dark {
   border-top: 1px solid var(--footer-text);
   color: var(--footer-text);
   text-align: center;
-  transition: var(--theme-transition);
+  transition: var(--theme-transition), border-top-color 0.8s ease-in-out;
 }
